@@ -31,7 +31,7 @@ def random_walk():
     tim.setheading(random.choice(turn_angle))
 
 
-for i in range(500):
+for i in range(200):
     random_walk()
 
 
