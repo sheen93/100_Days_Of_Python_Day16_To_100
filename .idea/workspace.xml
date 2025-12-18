@@ -26,12 +26,12 @@
     &quot;assignee&quot;: &quot;sheen93&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/sheen93/100_Days_Of_Python_Day16_To_100.git&quot;,
-    &quot;accountId&quot;: &quot;2cb005c0-bbf1-44bd-810b-cde7e1a53144&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sheen93/100_Days_Of_Python_Day16_To_100.git",
+    "accountId": "005b75df-62b9-49ac-9e80-354442e01a2a"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -43,22 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turlte_challenge3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_challenge.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_challenge4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tutle_challenge2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "Python.turlte_challenge3.executor": "Run",
+    "Python.turtle_challenge.executor": "Run",
+    "Python.turtle_challenge4.executor": "Run",
+    "Python.tutle_challenge2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python.turtle_challenge4">
+}]]></component>
+  <component name="RunManager" selected="Python.turtle_challenge">
     <configuration name="turlte_challenge3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
@@ -149,17 +149,17 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.turtle_challenge" />
         <item itemvalue="Python.turtle_challenge4" />
         <item itemvalue="Python.turlte_challenge3" />
         <item itemvalue="Python.tutle_challenge2" />
-        <item itemvalue="Python.turtle_challenge" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+        <option value="bundled-python-sdk-1f1b7bcced7d-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.29188.22" />
       </set>
     </attachedChunks>
   </component>
@@ -195,21 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1766033827704</updated>
     </task>
-    <task id="LOCAL-00004" summary="xps 13: day 17 turtle_challenge3 done">
+    <task id="LOCAL-00004" summary="xps 13: day 17 turtle_challenge4 done">
       <option name="closed" value="true" />
-      <created>1766079068616</created>
+      <created>1766093866432</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1766079068616</updated>
+      <updated>1766093866432</updated>
     </task>
-    <task id="LOCAL-00005" summary="xps 13: day 17 turtle_challenge3 done">
+    <task id="LOCAL-00005" summary="xps 13: day 17 turtle_challenge4 done">
       <option name="closed" value="true" />
-      <created>1766080582581</created>
+      <created>1766093991417</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1766080582581</updated>
+      <updated>1766093991417</updated>
     </task>
     <task id="LOCAL-00006" summary="xps 13: day 17 turtle_challenge4 done">
       <option name="closed" value="true" />
