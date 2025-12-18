@@ -19,19 +19,22 @@ while sides != 11:
     color1 = random.randint(0, 255)
     color2 = random.randint(0, 255)
     color3 = random.randint(0, 255)
-    tim.pencolor(color1,color2,color3)
+    tim.color(color1,color2,color3)
     for i in range(sides):
         tim.forward(100)
         tim.right(360/sides)
     sides += 1
 
 """tom's way to make different shapes"""
+
+colors = ["red","blue","green","yellow","red","blue","green","yellow","medium blue", "brown", "burlywood","purple"]
 def draw_shapes(num_of_sides):
     angle = 360/num_of_sides
     for _ in range(num_of_sides):
         tom.forward(100)
         tom.right(angle)
 for shape_side_n in range(3,11):
+    tom.color(random.choice(colors))
     draw_shapes(shape_side_n)
 
 

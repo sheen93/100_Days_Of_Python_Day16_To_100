@@ -174,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766033827704</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="xps 13: day 17 turtle_challenge3 done">
+      <option name="closed" value="true" />
+      <created>1766079068616</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766079068616</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
