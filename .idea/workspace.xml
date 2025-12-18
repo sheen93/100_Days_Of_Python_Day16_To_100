@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="xps 13: day 17 turtle_challenge3 done">
-      <change afterPath="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="xps 13: day 17 turtle_challenge4 done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766080582581</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="xps 13: day 17 turtle_challenge4 done">
+      <option name="closed" value="true" />
+      <created>1766088421682</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1766088421682</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +236,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="novoryzen: day 18 turtle_challenge continue" />
     <MESSAGE value="xps 13: day 17 turtle_challenge3 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="xps 13: day 17 turtle_challenge3 done" />
+    <MESSAGE value="xps 13: day 17 turtle_challenge4 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="xps 13: day 17 turtle_challenge4 done" />
   </component>
 </project>
