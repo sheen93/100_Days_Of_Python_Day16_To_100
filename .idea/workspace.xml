@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="novoryzen: day 18 turtle_challenge continue">
-      <change beforePath="$PROJECT_DIR$/.idea/100_Days_Of_Python_Day16_To_100.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/100_Days_Of_Python_Day16_To_100.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="xps 13: day 17 turtle_challenge3 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day 18/Turtle challenge/turlte_challenge3.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 18/Turtle challenge/turlte_challenge3.py" afterDir="false" />
     </list>
@@ -34,7 +32,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/sheen93/100_Days_Of_Python_Day16_To_100.git&quot;,
-    &quot;accountId&quot;: &quot;005b75df-62b9-49ac-9e80-354442e01a2a&quot;
+    &quot;accountId&quot;: &quot;2cb005c0-bbf1-44bd-810b-cde7e1a53144&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -140,7 +138,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
       </set>
     </attachedChunks>
   </component>
@@ -168,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766007967589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="xps 13: day 17 turtle_challenge3 done">
+      <option name="closed" value="true" />
+      <created>1766033827704</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766033827704</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +190,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="novoryzen: day 18 turtle_challenge continue" />
-    <option name="LAST_COMMIT_MESSAGE" value="novoryzen: day 18 turtle_challenge continue" />
+    <MESSAGE value="xps 13: day 17 turtle_challenge3 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="xps 13: day 17 turtle_challenge3 done" />
   </component>
 </project>
