@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="Novoryzen: day 17 turtle_challenge4 done">
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="xps 13: day 17 turtle_challenge4 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge4.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +60,11 @@
     &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.turlte_challenge3">
+  <component name="RunManager" selected="Python.turtle_challenge4">
     <configuration name="turlte_challenge3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
@@ -163,10 +163,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.turtle_challenge4" />
         <item itemvalue="Python.turlte_challenge3" />
         <item itemvalue="Python.tutle_challenge2" />
         <item itemvalue="Python.turtle_challenge" />
-        <item itemvalue="Python.turtle_challenge4" />
       </list>
     </recent_temporary>
   </component>
@@ -185,8 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763829307710</updated>
-      <workItem from="1766094911764" duration="762000" />
-      <workItem from="1766451051766" duration="74000" />
+      <workItem from="1766094911764" duration="453000" />
     </task>
     <task id="LOCAL-00001" summary="novoryzen: day 17 QuizGame done">
       <option name="closed" value="true" />
@@ -236,15 +235,7 @@
       <option name="project" value="LOCAL" />
       <updated>1766088421682</updated>
     </task>
-    <task id="LOCAL-00007" summary="Novoryzen: day 17 turtle_challenge4 done">
-      <option name="closed" value="true" />
-      <created>1766095477033</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1766095477033</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,13 +256,9 @@
     <MESSAGE value="novoryzen: day 18 turtle_challenge continue" />
     <MESSAGE value="xps 13: day 17 turtle_challenge3 done" />
     <MESSAGE value="xps 13: day 17 turtle_challenge4 done" />
-    <MESSAGE value="Novoryzen: day 17 turtle_challenge4 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Novoryzen: day 17 turtle_challenge4 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="xps 13: day 17 turtle_challenge4 done" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python2$tutle_challenge2.coverage" NAME="tutle_challenge2 Coverage Results" MODIFIED="1766095387029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
-    <SUITE FILE_PATH="coverage/Python2$turtle_challenge.coverage" NAME="turtle_challenge Coverage Results" MODIFIED="1766095379211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
-    <SUITE FILE_PATH="coverage/Python2$turlte_challenge3.coverage" NAME="turlte_challenge3 Coverage Results" MODIFIED="1766095394424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
-    <SUITE FILE_PATH="coverage/Python2$turtle_challenge4.coverage" NAME="turtle_challenge4 Coverage Results" MODIFIED="1766095371275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
+    <SUITE FILE_PATH="coverage/Python2$turtle_challenge4.coverage" NAME="turtle_challenge4 Coverage Results" MODIFIED="1766095032109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
   </component>
 </project>
