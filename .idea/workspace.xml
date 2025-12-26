@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="xps 13: day 17 turtle_challenge4 done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge4.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge4.py" afterDir="false" />
-    </list>
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 17 turtle_challenge4 done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -256,7 +253,8 @@
     <MESSAGE value="novoryzen: day 18 turtle_challenge continue" />
     <MESSAGE value="xps 13: day 17 turtle_challenge3 done" />
     <MESSAGE value="xps 13: day 17 turtle_challenge4 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="xps 13: day 17 turtle_challenge4 done" />
+    <MESSAGE value="day 17 turtle_challenge4 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 17 turtle_challenge4 done" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge4.coverage" NAME="turtle_challenge4 Coverage Results" MODIFIED="1766095032109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
