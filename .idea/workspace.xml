@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 17 turtle_challenge4 done" />
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 17 turtle_challenge4 done">
+      <change afterPath="$PROJECT_DIR$/day 18/Hirst Painting/H8fPT3FdxkC6_4800x4800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 18/Hirst Painting/color_pallete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 18/Hirst Painting/hirst_painting_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 18/Turtle challenge/python_tuples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 18/Turtle challenge/turlte_challenge3.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge4.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 18/Turtle challenge/tutle_challenge2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +40,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/sheen93/100_Days_Of_Python_Day16_To_100.git&quot;,
-    &quot;accountId&quot;: &quot;2cb005c0-bbf1-44bd-810b-cde7e1a53144&quot;
+    &quot;accountId&quot;: &quot;3f4fc2e5-8bf3-4379-a3a9-fcd58b1cd387&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -46,10 +57,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.color_pallete.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hirst_painting_project.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_tuples.executor&quot;: &quot;Run&quot;,
     &quot;Python.turlte_challenge3.executor&quot;: &quot;Run&quot;,
     &quot;Python.turtle_challenge.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge3 (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.turtle_challenge4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge5.executor&quot;: &quot;Run&quot;,
     &quot;Python.tutle_challenge2.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -57,12 +73,18 @@
     &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mshee/Desktop/Python2/day 18/Hirst Painting&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.turtle_challenge4">
-    <configuration name="turlte_challenge3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mshee\Desktop\Python2\day 18\Hirst Painting" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.hirst_painting_project">
+    <configuration name="color_pallete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,13 +93,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 18/Turtle challenge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 18/Hirst Painting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 18/Turtle challenge/turlte_challenge3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 18/Hirst Painting/color_pallete.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="turtle_challenge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hirst_painting_project" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,13 +117,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 18/Turtle challenge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 18/Hirst Painting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 18/Hirst Painting/hirst_painting_project.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="turtle_challenge4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="python_tuples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,7 +147,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 18/Turtle challenge/python_tuples.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tutle_challenge2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="turtle_challenge3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,7 +171,31 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 18/Turtle challenge/tutle_challenge2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="turtle_challenge5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_Days_Of_Python_Day16_To_100" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 18/Turtle challenge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 18/Turtle challenge/turtle_challenge5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,16 +206,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.turtle_challenge4" />
-        <item itemvalue="Python.turlte_challenge3" />
-        <item itemvalue="Python.tutle_challenge2" />
-        <item itemvalue="Python.turtle_challenge" />
+        <item itemvalue="Python.hirst_painting_project" />
+        <item itemvalue="Python.color_pallete" />
+        <item itemvalue="Python.turtle_challenge5" />
+        <item itemvalue="Python.turtle_challenge3 (1)" />
+        <item itemvalue="Python.python_tuples" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.142" />
         <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
       </set>
     </attachedChunks>
@@ -182,6 +230,10 @@
       <option name="presentableId" value="Default" />
       <updated>1763829307710</updated>
       <workItem from="1766094911764" duration="453000" />
+      <workItem from="1766785230207" duration="1763000" />
+      <workItem from="1766861831190" duration="888000" />
+      <workItem from="1766862770761" duration="855000" />
+      <workItem from="1766863647724" duration="7716000" />
     </task>
     <task id="LOCAL-00001" summary="novoryzen: day 17 QuizGame done">
       <option name="closed" value="true" />
@@ -247,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766451365512</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="day 17 turtle_challenge4 done">
+      <option name="closed" value="true" />
+      <created>1766770288849</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1766770288849</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +332,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="day 17 turtle_challenge4 done" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python2$turtle_challenge4.coverage" NAME="turtle_challenge4 Coverage Results" MODIFIED="1766095032109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
+    <SUITE FILE_PATH="coverage/Python2$python_tuples.coverage" NAME="python_tuples Coverage Results" MODIFIED="1766773288048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
+    <SUITE FILE_PATH="coverage/Python2$turtle_challenge5.coverage" NAME="turtle_challenge5 Coverage Results" MODIFIED="1766863273721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
+    <SUITE FILE_PATH="coverage/Python2$hirst_painting_project.coverage" NAME="hirst_painting_project Coverage Results" MODIFIED="1766876600896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Hirst Painting" />
+    <SUITE FILE_PATH="coverage/Python2$turtle_challenge3__1_.coverage" NAME="turtle_challenge3 (1) Coverage Results" MODIFIED="1766774744093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
+    <SUITE FILE_PATH="coverage/Python2$color_pallete.coverage" NAME="color_pallete Coverage Results" MODIFIED="1766874803041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Hirst Painting" />
+    <SUITE FILE_PATH="coverage/Python2$turtle_challenge4.coverage" NAME="turtle_challenge4 Coverage Results" MODIFIED="1766771848692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
   </component>
 </project>
