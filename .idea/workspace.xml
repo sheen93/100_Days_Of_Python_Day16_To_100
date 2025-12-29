@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 19 done">
-      <change afterPath="$PROJECT_DIR$/day 20/Snake Game/main.py" afterDir="false" />
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 20 continue">
+      <change afterPath="$PROJECT_DIR$/day 20 - 21/Lessons/inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 20 - 21/Lessons/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game Redo/food_redo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game Redo/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game Redo/snake_redo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game/food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game/snake.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 20/Snake Game/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +62,8 @@
     "Python.hirst_painting_project.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main (4).executor": "Run",
     "Python.main.executor": "Run",
     "Python.python_tuples.executor": "Run",
     "Python.turlte_challenge3.executor": "Run",
@@ -78,55 +88,7 @@
       <recent name="C:\Users\mshee\Desktop\Python2\day 18\Hirst Painting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
-    <configuration name="higher_order_functions_and_event_listener" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100_Days_Of_Python_Day16_To_100" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 19" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 19/higher_order_functions_and_event_listener.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hirst_painting_project" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100_Days_Of_Python_Day16_To_100" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 18/Hirst Painting" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 18/Hirst Painting/hirst_painting_project.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (4)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
@@ -175,6 +137,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_Days_Of_Python_Day16_To_100" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 20/Snake Game Redo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 20/Snake Game Redo/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_Days_Of_Python_Day16_To_100" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 20 - 21/Lessons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 20 - 21/Lessons/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
@@ -201,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (4)" />
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.higher_order_functions_and_event_listener" />
-        <item itemvalue="Python.hirst_painting_project" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +241,8 @@
       <workItem from="1766863647724" duration="7716000" />
       <workItem from="1766887875644" duration="13301000" />
       <workItem from="1766954426201" duration="73000" />
-      <workItem from="1767018252895" duration="3560000" />
+      <workItem from="1767018252895" duration="3590000" />
+      <workItem from="1767028205469" duration="7913000" />
     </task>
     <task id="LOCAL-00001" summary="novoryzen: day 17 QuizGame done">
       <option name="closed" value="true" />
@@ -329,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766954478972</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="day 20 continue">
+      <option name="closed" value="true" />
+      <created>1767023379805</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1767023379805</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,18 +372,21 @@
     <MESSAGE value="day 17 turtle_challenge4 done" />
     <MESSAGE value="day 18 done" />
     <MESSAGE value="day 19 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 19 done" />
+    <MESSAGE value="day 20 continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 20 continue" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python2$main.coverage" NAME="main Coverage Results" MODIFIED="1766893943515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19/Etch a Sketch" />
-    <SUITE FILE_PATH="coverage/Python2$python_tuples.coverage" NAME="python_tuples Coverage Results" MODIFIED="1766773288048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
-    <SUITE FILE_PATH="coverage/Python2$higher_order_functions_and_event_listener.coverage" NAME="higher_order_functions_and_event_listener Coverage Results" MODIFIED="1766889430754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19" />
     <SUITE FILE_PATH="coverage/Python2$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1767018624213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19/Turtle Race" />
-    <SUITE FILE_PATH="coverage/Python2$turtle_challenge5.coverage" NAME="turtle_challenge5 Coverage Results" MODIFIED="1766863273721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/Python2$hirst_painting_project.coverage" NAME="hirst_painting_project Coverage Results" MODIFIED="1766888630723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Hirst Painting" />
-    <SUITE FILE_PATH="coverage/Python2$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1767020243238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20/Snake Game" />
+    <SUITE FILE_PATH="coverage/Python2$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1767035453888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20/Snake Game" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge3__1_.coverage" NAME="turtle_challenge3 (1) Coverage Results" MODIFIED="1766774744093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/Python2$color_pallete.coverage" NAME="color_pallete Coverage Results" MODIFIED="1766874803041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Hirst Painting" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge4.coverage" NAME="turtle_challenge4 Coverage Results" MODIFIED="1766771848692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
+    <SUITE FILE_PATH="coverage/Python2$main.coverage" NAME="main Coverage Results" MODIFIED="1766893943515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19/Etch a Sketch" />
+    <SUITE FILE_PATH="coverage/Python2$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1767036316118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20/Snake Game Redo" />
+    <SUITE FILE_PATH="coverage/Python2$python_tuples.coverage" NAME="python_tuples Coverage Results" MODIFIED="1766773288048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
+    <SUITE FILE_PATH="coverage/Python2$higher_order_functions_and_event_listener.coverage" NAME="higher_order_functions_and_event_listener Coverage Results" MODIFIED="1766889430754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19" />
+    <SUITE FILE_PATH="coverage/Python2$turtle_challenge5.coverage" NAME="turtle_challenge5 Coverage Results" MODIFIED="1766863273721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
+    <SUITE FILE_PATH="coverage/Python2$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1767037205368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20 - 21/Lessons" />
   </component>
 </project>
