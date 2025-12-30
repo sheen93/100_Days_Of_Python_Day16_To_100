@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 20-21 continue">
-      <change beforePath="$PROJECT_DIR$/day 20 - 21/Snake Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day 20 - 21/Snake Game/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day 20 - 21/Snake Game/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game/snake.py" afterDir="false" />
-    </list>
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 20-21 continue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -238,7 +234,7 @@
       <workItem from="1767018252895" duration="3590000" />
       <workItem from="1767028205469" duration="7942000" />
       <workItem from="1767050455665" duration="1324000" />
-      <workItem from="1767105588306" duration="4000000" />
+      <workItem from="1767105588306" duration="4829000" />
     </task>
     <task id="LOCAL-00001" summary="novoryzen: day 17 QuizGame done">
       <option name="closed" value="true" />
@@ -384,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767109268213</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="day 20-21 continue">
+      <option name="closed" value="true" />
+      <created>1767109632321</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1767109632321</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
