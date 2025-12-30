@@ -11,10 +11,10 @@ turn_angle = [0,90,180,270]
 distance = [10,20,30,40,50]
 
 def random_color():
-    color1 = random.randint(0, 255)
-    color2 = random.randint(0, 255)
-    color3 = random.randint(0, 255)
-    tim.color(color1,color2,color3)
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    tim.color(r,g,b)
 
 def check_border(t):
     # Check if the turtle has hit the borders (e.g., at 300 or -300)
