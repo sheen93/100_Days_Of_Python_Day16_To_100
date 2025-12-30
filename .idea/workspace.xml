@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 20 continue" />
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 20 continue">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 20 - 21/Snake Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 20 - 21/Snake Game/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game/scoreboard.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,36 +47,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.color_pallete.executor": "Run",
-    "Python.higher_order_functions_and_event_listener.executor": "Run",
-    "Python.hirst_painting_project.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main (2).executor": "Run",
-    "Python.main (3).executor": "Run",
-    "Python.main (4).executor": "Run",
-    "Python.main (5).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.python_tuples.executor": "Run",
-    "Python.turlte_challenge3.executor": "Run",
-    "Python.turtle_challenge.executor": "Run",
-    "Python.turtle_challenge3 (1).executor": "Run",
-    "Python.turtle_challenge4.executor": "Run",
-    "Python.turtle_challenge5.executor": "Run",
-    "Python.tutle_challenge2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/mshee/Desktop/Python2/day 18/Hirst Painting",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.color_pallete.executor&quot;: &quot;Run&quot;,
+    &quot;Python.higher_order_functions_and_event_listener.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hirst_painting_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (5).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_tuples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turlte_challenge3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tutle_challenge2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mshee/Desktop/Python2/day 18/Hirst Painting&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mshee\Desktop\Python2\day 18\Hirst Painting" />
@@ -233,7 +237,8 @@
       <workItem from="1766954426201" duration="73000" />
       <workItem from="1767018252895" duration="3590000" />
       <workItem from="1767028205469" duration="7942000" />
-      <workItem from="1767050455665" duration="1097000" />
+      <workItem from="1767050455665" duration="1324000" />
+      <workItem from="1767105588306" duration="3634000" />
     </task>
     <task id="LOCAL-00001" summary="novoryzen: day 17 QuizGame done">
       <option name="closed" value="true" />
@@ -363,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767051320738</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="day 20 continue">
+      <option name="closed" value="true" />
+      <created>1767051783797</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1767051783797</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,6 +416,6 @@
     <SUITE FILE_PATH="coverage/Python2$higher_order_functions_and_event_listener.coverage" NAME="higher_order_functions_and_event_listener Coverage Results" MODIFIED="1766889430754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge5.coverage" NAME="turtle_challenge5 Coverage Results" MODIFIED="1766863273721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/Python2$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1767050814251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20 - 21/Lessons" />
-    <SUITE FILE_PATH="coverage/Python2$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1767051224327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20 - 21/Snake Game" />
+    <SUITE FILE_PATH="coverage/Python2$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1767109141304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20 - 21/Snake Game" />
   </component>
 </project>
