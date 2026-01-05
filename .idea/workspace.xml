@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 20-21 continue">
-      <change afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game Redo/redo_food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game Redo/redo_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game Redo/redo_scoreboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game Redo/redo_snake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day 20 - 21/Snake Game Redo/food_redo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 20 - 21/Lessons/slicing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day 20 - 21/Snake Game Redo/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day 20 - 21/Snake Game Redo/snake_redo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day 20 - 21/Snake Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day 20 - 21/Snake Game/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game/snake.py" afterDir="false" />
-    </list>
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 20-21 continue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,38 +43,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.color_pallete.executor": "Run",
-    "Python.higher_order_functions_and_event_listener.executor": "Run",
-    "Python.hirst_painting_project.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main (2).executor": "Run",
-    "Python.main (3).executor": "Run",
-    "Python.main (4).executor": "Run",
-    "Python.main (5).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.python_tuples.executor": "Run",
-    "Python.redo_main.executor": "Run",
-    "Python.slicing.executor": "Run",
-    "Python.turlte_challenge3.executor": "Run",
-    "Python.turtle_challenge.executor": "Run",
-    "Python.turtle_challenge3 (1).executor": "Run",
-    "Python.turtle_challenge4.executor": "Run",
-    "Python.turtle_challenge5.executor": "Run",
-    "Python.tutle_challenge2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/mshee/Desktop/Python2/day 18/Hirst Painting",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.color_pallete.executor&quot;: &quot;Run&quot;,
+    &quot;Python.higher_order_functions_and_event_listener.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hirst_painting_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (5).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_tuples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.redo_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slicing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turlte_challenge3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tutle_challenge2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mshee/Desktop/Python2/day 18/Hirst Painting&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mshee\Desktop\Python2\day 18\Hirst Painting" />
@@ -250,7 +239,7 @@
       <workItem from="1767105588306" duration="5094000" />
       <workItem from="1767121233441" duration="4846000" />
       <workItem from="1767198121838" duration="5140000" />
-      <workItem from="1767644447231" duration="3965000" />
+      <workItem from="1767644447231" duration="3995000" />
     </task>
     <task id="LOCAL-00001" summary="novoryzen: day 17 QuizGame done">
       <option name="closed" value="true" />
@@ -420,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767121243557</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="day 20-21 continue">
+      <option name="closed" value="true" />
+      <created>1767650898692</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1767650898692</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
