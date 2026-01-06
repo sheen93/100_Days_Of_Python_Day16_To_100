@@ -35,8 +35,7 @@ while game_on:
     screen.update()
     time.sleep(0.1)
 
-    right_paddle.update_paddle()
-    left_paddle.update_paddle()
+    Paddle.update_all_paddles()
 
     ball.move()
 

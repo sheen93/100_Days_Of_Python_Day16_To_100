@@ -62,5 +62,9 @@ class Paddle(Turtle):
     def reset_all(cls):
         for paddle in cls.all_paddles:
             paddle.reset_pos()
+    @classmethod
+    def update_all_paddles(cls):
+        for paddle in cls.all_paddles:
+            paddle.update_paddle()
 
 
