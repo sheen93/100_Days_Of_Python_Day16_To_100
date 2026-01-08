@@ -2,12 +2,12 @@ from turtle import Turtle
 
 UP = 90
 DOWN = 270
-PADDLE_SPEED = 10
 PADDLE_LIMIT = 240
 
 
 
 class Paddle(Turtle):
+
     right_x = 350
     left_x = -350
     all_y = 0
@@ -24,18 +24,19 @@ class Paddle(Turtle):
         self.shapesize(stretch_wid=5, stretch_len=1)
         self.teleport(self.initial_x, self.initial_y)
         Paddle.all_paddles.append(self)
+        self.paddle_speed = 10
         self.moving_up = False
         self.moving_down = False
 
 
     def up(self):
         if self.ycor() < PADDLE_LIMIT:
-            new_y = self.ycor() + PADDLE_SPEED
+            new_y = self.ycor() + self.paddle_speed
             self.goto(self.xcor(), new_y)
 
     def down(self):
         if self.ycor() > -PADDLE_LIMIT:
-            new_y = self.ycor() - PADDLE_SPEED
+            new_y = self.ycor() - self.paddle_speed
             self.goto(self.xcor(), new_y)
 
     def start_up(self):

@@ -33,7 +33,7 @@ game_on = True
 
 while game_on:
     screen.update()
-    time.sleep(0.1)
+    time.sleep(ball.move_speed)
 
     Paddle.update_all_paddles()
 
@@ -46,19 +46,26 @@ while game_on:
     #right paddle collision
     if ball.distance(right_paddle) < 60 and ball.xcor() > 320:
         if ball.x_move > 0:
-            ball.bounce_x()
+            print(f"Ball: {ball.ycor()} - Right Paddle: {right_paddle.ycor()}")
+            hit_offset = ball.ycor() - right_paddle.ycor()
+            print(f"Offset: {hit_offset}")
+            ball.setx(325)
+            ball.bounce_x(hit_offset)
     #left paddle collision
     if ball.distance(left_paddle) < 60 and ball.xcor() < -320:
         if ball.x_move < 0:
-            ball.bounce_x()
+            print(f"Ball: {ball.ycor()} - Left Paddle: {left_paddle.ycor()}")
+            hit_offset = ball.ycor() - left_paddle.ycor()
+            print(f"Offset: {hit_offset}")
+            ball.setx(-325)
+            ball.bounce_x(hit_offset)
 
     #reset
     if ball.xcor() > 380:
         scoreboard.l_point()
         ball.reset_pos()
         Paddle.reset_all()
-        # right_paddle.reset_pos(350)
-        # left_paddle.reset_pos(-350)
+
     if ball.xcor() < -380:
         scoreboard.r_point()
         ball.reset_pos()
