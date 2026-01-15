@@ -9,16 +9,24 @@ class Street(Turtle):
     def __init__(self):
         super().__init__()
         self.hideturtle()
-        self.teleport(-500,250)
+        self.teleport(-650,250)
 
     def draw_street(self):
         self.color("white")
         self.pensize(5)
         self.setheading(RIGHT)
-        self.fd(1000)
+        self.fd(1300)
         self.setheading(DOWN)
         self.fd(500)
         self.setheading(LEFT)
-        self.fd(1000)
+        self.fd(1300)
         self.setheading(UP)
         self.fd(500)
+        self.teleport()
+        #middle yellow
+        # self.teleport(self.xcor(),0)
+        # self.pencolor("yellow")
+        # self.pensize(10)
+        # self.setheading(RIGHT)
+        # self.fd(1300)
+
