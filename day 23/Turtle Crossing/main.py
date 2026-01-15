@@ -8,7 +8,7 @@ from street import Street
 
 screen = Screen()
 screen.setup(width=1200, height=650)
-screen.bgcolor("black")
+screen.bgcolor("grey")
 screen.title("Turtle Crossing")
 screen.tracer(0)
 screen.listen()
