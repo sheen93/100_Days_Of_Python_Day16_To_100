@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 22 continue">
-      <change afterPath="$PROJECT_DIR$/day 23/Turtle Crossing/car_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 23/Turtle Crossing/crossing_turtle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 23/Turtle Crossing/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 23/Turtle Crossing/scoreboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 23/Turtle Crossing/street.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 23/Turtle Crossing/vehicle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 22 continue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -261,7 +253,7 @@
       <workItem from="1768143284197" duration="1304000" />
       <workItem from="1768331220093" duration="1292000" />
       <workItem from="1768421588404" duration="29000" />
-      <workItem from="1768422321169" duration="4782000" />
+      <workItem from="1768422321169" duration="4865000" />
     </task>
     <task id="LOCAL-00001" summary="novoryzen: day 17 QuizGame done">
       <option name="closed" value="true" />
@@ -511,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768422329414</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="day 22 continue">
+      <option name="closed" value="true" />
+      <created>1768427169531</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1768427169531</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
