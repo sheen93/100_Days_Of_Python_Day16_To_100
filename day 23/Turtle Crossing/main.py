@@ -15,7 +15,8 @@ screen.listen()
 
 cTurtle = CrossingTurtle()
 street = Street()
-
+car = CarManager()
+scoreboard = Scoreboard()
 street.draw_street()
 
 screen.onkeypress(cTurtle.start_up, "Up")
@@ -36,8 +37,27 @@ game_is_on = True
 
 while game_is_on:
     screen.update()
-    time.sleep(0.1)
+    time.sleep(0.08)
 
     cTurtle.update()
+    cTurtle.border_check()
+
+    car.create_cars()
+    car.move_cars()
+
+    if cTurtle.change_direction():
+        scoreboard.increase_score()
+        car.speed_up()
+        cTurtle.speed_up()
+
+
+    scoreboard.show_score()
+
+
+
+    for cars in car.all_cars:
+        if cars.collision_detected(cTurtle):
+            scoreboard.game_over()
+            game_is_on = False
 
 screen.exitonclick()
