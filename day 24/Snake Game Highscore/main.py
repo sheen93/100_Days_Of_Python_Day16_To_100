@@ -24,7 +24,7 @@ game_on = True
 
 while game_on:
     screen.update()
-    time.sleep(0.1)
+    time.sleep(snake.snake_speed)
 
     snake.move()
 
@@ -32,6 +32,9 @@ while game_on:
     if snake.head.distance(food) < 15:
         food.refresh()
         score_turtle.increase_score()
+        snake.snake_speed *= 0.95
+        snake.extend()
+
     #detect collision with wall
     if snake.head.xcor() > 290 or snake.head.xcor() < -290 or snake.head.ycor() > 290 or snake.head.ycor() < -290:
         game_on = False
@@ -42,33 +45,6 @@ while game_on:
         if snake.head.distance(segment) < 10:
             game_on = False
             score_turtle.game_over()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 screen.exitonclick()
