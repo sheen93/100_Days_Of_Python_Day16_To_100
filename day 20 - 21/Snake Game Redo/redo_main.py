@@ -7,7 +7,7 @@ from redo_scoreboard import Scoreboard
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
-screen.title("Snake Game Redo")
+screen.title("Snake Game Highscore Redo")
 screen.tracer(0)
 
 snake = Snake()

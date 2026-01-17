@@ -2,7 +2,7 @@ from turtle import Turtle
 
 UP = 90
 DOWN = 270
-SPEED = 10
+TURTLE_SPEED = 10
 
 
 class CrossingTurtle(Turtle):
@@ -12,21 +12,23 @@ class CrossingTurtle(Turtle):
         self.color("white")
         self.penup()
         self.goto(0, -270)
-        self.speed(SPEED)
+        self.moving_speed = TURTLE_SPEED
+        self.change_direction()
         self.setheading(UP)
         self.moving_up = False
         self.moving_down = False
         self.moving_right = False
         self.moving_left = False
 
+
     def move_up(self):
-        self.goto(self.xcor(), self.ycor() + self.speed())
+        self.goto(self.xcor(), self.ycor() + self.moving_speed)
     def move_down(self):
-        self.goto(self.xcor(), self.ycor() - self.speed())
+        self.goto(self.xcor(), self.ycor() - self.moving_speed)
     def move_right(self):
-        self.goto(self.xcor() + self.speed(), self.ycor())
+        self.goto(self.xcor() + self.moving_speed, self.ycor())
     def move_left(self):
-        self.goto(self.xcor() - self.speed(), self.ycor())
+        self.goto(self.xcor() - self.moving_speed, self.ycor())
 
     def start_up(self):
         self.moving_up = True
@@ -57,5 +59,24 @@ class CrossingTurtle(Turtle):
             self.move_left()
         if self.moving_right:
             self.move_right()
+
+    def change_direction(self):
+        if self.heading() == UP and self.ycor() >= 270:
+            self.setheading(DOWN)
+            return True
+        elif self.heading() == DOWN and self.ycor() <= -270:
+            self.setheading(UP)
+            return True
+        else:
+            return False
+
+    def border_check(self):
+        if self.heading() == DOWN and self.ycor() > 270:
+            self.goto(self.xcor(), 270)
+        if self.heading() == UP and self.ycor() < -270:
+            self.goto(self.xcor(), -270)
+
+    def speed_up(self):
+        self.moving_speed += 2
 
 
