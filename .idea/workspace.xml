@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 22 continue">
-      <change afterPath="$PROJECT_DIR$/day 24/Snake Game Highscore/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 24/Snake Game Highscore/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 24/Snake Game Highscore/scoreboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 24/Snake Game Highscore/snake.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day 20 - 21/Snake Game Redo/redo_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game Redo/redo_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day 20 - 21/Snake Game/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 20 - 21/Snake Game/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,8 +220,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.142" />
-        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.308" />
+        <option value="bundled-python-sdk-ca5e2b39c7df-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.308" />
       </set>
     </attachedChunks>
   </component>
@@ -267,6 +261,7 @@
       <workItem from="1768422321169" duration="4782000" />
       <workItem from="1768522415147" duration="8766000" />
       <workItem from="1768617026402" duration="9779000" />
+      <workItem from="1768639635402" duration="1861000" />
     </task>
     <task id="LOCAL-00001" summary="novoryzen: day 17 QuizGame done">
       <option name="closed" value="true" />
@@ -540,7 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768539389290</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="day 22 continue">
+      <option name="closed" value="true" />
+      <created>1768639856311</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1768639856311</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +582,7 @@
     <SUITE FILE_PATH="coverage/Python2$color_pallete.coverage" NAME="color_pallete Coverage Results" MODIFIED="1766874803041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Hirst Painting" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge4.coverage" NAME="turtle_challenge4 Coverage Results" MODIFIED="1766771848692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/Python2$main.coverage" NAME="main Coverage Results" MODIFIED="1768425941753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 22/Pong" />
-    <SUITE FILE_PATH="coverage/Python2$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1768625702061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 24/Snake Game Highscore" />
+    <SUITE FILE_PATH="coverage/Python2$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1768639691573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 24/Snake Game Highscore" />
     <SUITE FILE_PATH="coverage/Python2$python_tuples.coverage" NAME="python_tuples Coverage Results" MODIFIED="1766773288048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/Python2$higher_order_functions_and_event_listener.coverage" NAME="higher_order_functions_and_event_listener Coverage Results" MODIFIED="1766889430754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19" />
     <SUITE FILE_PATH="coverage/Python2$slicing.coverage" NAME="slicing Coverage Results" MODIFIED="1767123226257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20 - 21/Lessons" />
