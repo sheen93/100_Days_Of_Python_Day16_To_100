@@ -1,0 +1,2 @@
+New file! New text!
+Adding this new text to the file

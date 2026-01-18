@@ -1,0 +1,1 @@
+This is a new file created from a different directory using python's internal coding
