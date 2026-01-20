@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 22 continue">
+      <change afterPath="$PROJECT_DIR$/day 26/List Comprehension/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/50_states.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/States learned.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/States to learn.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/blank_states_img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/states.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +38,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/sheen93/100_Days_Of_Python_Day16_To_100.git&quot;,
-    &quot;accountId&quot;: &quot;3f4fc2e5-8bf3-4379-a3a9-fcd58b1cd387&quot;
+    &quot;accountId&quot;: &quot;385f264b-a5b8-4003-bc6f-01b75faaca2a&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -45,72 +52,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.color_pallete.executor&quot;: &quot;Run&quot;,
-    &quot;Python.crossing_turtle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.higher_order_functions_and_event_listener.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hirst_painting_project.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (4).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (5).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python_tuples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.redo_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.slicing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.states.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turlte_challenge3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_challenge.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_challenge3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_challenge4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.turtle_challenge5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tutle_challenge2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vehicle.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mshee/Desktop/Python2/day 24&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.color_pallete.executor": "Run",
+    "Python.crossing_turtle.executor": "Run",
+    "Python.higher_order_functions_and_event_listener.executor": "Run",
+    "Python.hirst_painting_project.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main (4).executor": "Run",
+    "Python.main (5).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.python_tuples.executor": "Run",
+    "Python.redo_main.executor": "Run",
+    "Python.slicing.executor": "Run",
+    "Python.states.executor": "Run",
+    "Python.turlte_challenge3.executor": "Run",
+    "Python.turtle_challenge.executor": "Run",
+    "Python.turtle_challenge3 (1).executor": "Run",
+    "Python.turtle_challenge4.executor": "Run",
+    "Python.turtle_challenge5.executor": "Run",
+    "Python.tutle_challenge2.executor": "Run",
+    "Python.vehicle.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/mshee/Desktop/Python2/day 26",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mshee\Desktop\Python2\day 26" />
       <recent name="C:\Users\mshee\Desktop\Python2\day 24" />
       <recent name="C:\Users\mshee\Desktop\Python2\day 18\Hirst Painting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100_Days_Of_Python_Day16_To_100" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 25/Reading CSV" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 25/Reading CSV/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (3)">
     <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
@@ -143,13 +129,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 24/Snake Game Highscore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 26/US State Quiz List Comprehension" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 24/Snake Game Highscore/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_Days_Of_Python_Day16_To_100" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 26/List Comprehension" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 26/List Comprehension/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,7 +237,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main (4)" />
       <item itemvalue="Python.main (2)" />
       <item itemvalue="Python.main (3)" />
       <item itemvalue="Python.main" />
@@ -237,11 +245,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.states" />
         <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -627,7 +635,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768790347677</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="day 22 continue">
+      <option name="closed" value="true" />
+      <created>1768939031734</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1768939031734</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
