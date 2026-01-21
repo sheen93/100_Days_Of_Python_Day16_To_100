@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 22 continue">
-      <change afterPath="$PROJECT_DIR$/day 26/List Comprehension/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/50_states.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/States learned.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/States to learn.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/blank_states_img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 26/US State Quiz List Comprehension/states.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 22 continue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,43 +43,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.color_pallete.executor": "Run",
-    "Python.crossing_turtle.executor": "Run",
-    "Python.higher_order_functions_and_event_listener.executor": "Run",
-    "Python.hirst_painting_project.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main (2).executor": "Run",
-    "Python.main (3).executor": "Run",
-    "Python.main (4).executor": "Run",
-    "Python.main (5).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.python_tuples.executor": "Run",
-    "Python.redo_main.executor": "Run",
-    "Python.slicing.executor": "Run",
-    "Python.states.executor": "Run",
-    "Python.turlte_challenge3.executor": "Run",
-    "Python.turtle_challenge.executor": "Run",
-    "Python.turtle_challenge3 (1).executor": "Run",
-    "Python.turtle_challenge4.executor": "Run",
-    "Python.turtle_challenge5.executor": "Run",
-    "Python.tutle_challenge2.executor": "Run",
-    "Python.vehicle.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/mshee/Desktop/Python2/day 26",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.color_pallete.executor&quot;: &quot;Run&quot;,
+    &quot;Python.crossing_turtle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.higher_order_functions_and_event_listener.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hirst_painting_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (5).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python_tuples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.redo_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slicing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.states.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turlte_challenge3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.turtle_challenge5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tutle_challenge2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vehicle.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mshee/Desktop/Python2/day 26&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mshee\Desktop\Python2\day 26" />
@@ -237,9 +228,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main (4)" />
       <item itemvalue="Python.main (2)" />
       <item itemvalue="Python.main (3)" />
+      <item itemvalue="Python.main (4)" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.states" />
     </list>
@@ -643,7 +634,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768939031734</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="day 22 continue">
+      <option name="closed" value="true" />
+      <created>1768943072199</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1768943072199</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
