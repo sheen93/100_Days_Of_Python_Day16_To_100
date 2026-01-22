@@ -1,5 +1,6 @@
 from tkinter import *
 
+#window creation
 window = Tk()
 window.title("Tkinter Widget Practice")
 window.minsize(width=500, height=500)
@@ -16,13 +17,9 @@ def action2():
 button2 = Button(text="Click me to change label from entry", command=action2)
 button2.pack()
 
-
-
 #label
 label = Label(text="This is the old text")
 label.pack()
-
-
 
 #entries
 entry = Entry(width=30)
