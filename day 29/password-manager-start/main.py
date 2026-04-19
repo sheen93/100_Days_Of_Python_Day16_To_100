@@ -1,7 +1,25 @@
 from tkinter import *
 from tkinter import messagebox
-# ---------------------------- PASSWORD GENERATOR ------------------------------- #
+import random
+import string
+import pyperclip
 
+# ---------------------------- PASSWORD GENERATOR ------------------------------- #
+def generate_password():
+    letters = string.ascii_letters
+    numbers = string.digits
+    symbols = "!#$%&()*+"
+
+    password_list = [str(random.choice(letters)) for _ in range(random.randint(8, 10))]
+    password_list += [str(random.choice(numbers)) for _ in range(random.randint(2, 4))]
+    password_list += [str(random.choice(symbols)) for _ in range(random.randint(2, 4))]
+
+    random.shuffle(password_list)
+    password = "".join(password_list)
+
+    password_entry.delete(0, END)
+    password_entry.insert(0, password)
+    pyperclip.copy(password)
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save_pass():
     website = website_entry.get()
@@ -14,7 +32,7 @@ def save_pass():
         is_ok = messagebox.askokcancel(title=website, message=f"Email: {user_email}\n"
                                                       f"Password: {password}")
         if is_ok:
-            with open("data.txt", mode="a+") as f:
+            with open("data.txt", mode="a") as f:
                 f.seek(0)
                 f.write(f"Website: {website}\n"
                         f"User/Email: {user_email}\n"
@@ -56,11 +74,10 @@ password_entry = Entry()
 password_entry.grid(column=1, row=3, sticky="EW")
 
 #button
-generate_button = Button(text="Generate Password")
+generate_button = Button(text="Generate Password", command=generate_password)
 generate_button.grid(column=2, row=3, sticky="EW")
 
 add_button = Button(text="Add", command=save_pass)
 add_button.grid(column=1, row=4, columnspan=2, sticky="EW")
-
 
 window.mainloop()
