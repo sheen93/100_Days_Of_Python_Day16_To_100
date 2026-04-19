@@ -1,0 +1,12 @@
+# Python bytecode (compiled files)
+__pycache__/
+*.py[cod]
+
+# Environments (if you use them)
+.venv/
+env/
+venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
