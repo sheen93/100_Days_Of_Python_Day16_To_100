@@ -37,6 +37,7 @@ height = float(input("Height (in): "))
 weight = int(input("Weight (lbs): "))
 
 if height > 120:
+    pass
 
 bmi = (weight / (height ** 2)) * 703
 print(bmi)
