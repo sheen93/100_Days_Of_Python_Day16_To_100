@@ -37,7 +37,7 @@ height = float(input("Height (in): "))
 weight = int(input("Weight (lbs): "))
 
 if height > 120:
-    pass
+    raise ValueError("Human height should not be over 120 inches (10 ft)")
 
 bmi = (weight / (height ** 2)) * 703
 print(bmi)

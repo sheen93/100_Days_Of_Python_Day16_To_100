@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 22 continue">
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 30 continue">
+      <change afterPath="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/Exercise/Ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_18_2026_8_40_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_18_2026_8_40_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_18_2026_8_46_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_18_2026_8_46_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/a_file.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +54,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Ex1.executor&quot;: &quot;Run&quot;,
     &quot;Python.Grid_Column_Span.executor&quot;: &quot;Run&quot;,
     &quot;Python.args_kwargs.executor&quot;: &quot;Run&quot;,
     &quot;Python.color_pallete.executor&quot;: &quot;Run&quot;,
@@ -104,8 +109,8 @@
       <recent name="C:\Users\mshee\Desktop\Python2\day 18\Hirst Painting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (4)">
-    <configuration name="Grid_Column_Span" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Ex1">
+    <configuration name="Ex1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,12 +119,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 29" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/Exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 29/Grid_Column_Span.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/Exercise/Ex1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,19 +226,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main (4)" />
-      <item itemvalue="Python.Grid_Column_Span" />
+      <item itemvalue="Python.Ex1" />
       <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.main (2)" />
       <item itemvalue="Python.main (3)" />
+      <item itemvalue="Python.main (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ex1" />
         <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.Grid_Column_Span" />
       </list>
     </recent_temporary>
   </component>
@@ -282,22 +287,6 @@
       <workItem from="1768617026402" duration="9779000" />
       <workItem from="1768639635402" duration="1880000" />
       <workItem from="1768675507788" duration="22966000" />
-    </task>
-    <task id="LOCAL-00002" summary="novoryzen: day 18 turtle_challenge continue">
-      <option name="closed" value="true" />
-      <created>1766007967589</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1766007967589</updated>
-    </task>
-    <task id="LOCAL-00003" summary="xps 13: day 17 turtle_challenge3 done">
-      <option name="closed" value="true" />
-      <created>1766033827704</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1766033827704</updated>
     </task>
     <task id="LOCAL-00004" summary="xps 13: day 17 turtle_challenge4 done">
       <option name="closed" value="true" />
@@ -675,7 +664,23 @@
       <option name="project" value="LOCAL" />
       <updated>1769125217681</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="day 30 continue">
+      <option name="closed" value="true" />
+      <created>1776707079743</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1776707079744</updated>
+    </task>
+    <task id="LOCAL-00052" summary="day 30 continue">
+      <option name="closed" value="true" />
+      <created>1776707120853</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1776707120853</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -702,7 +707,8 @@
     <MESSAGE value="day 20 continue" />
     <MESSAGE value="day 20-21 continue" />
     <MESSAGE value="day 22 continue" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 22 continue" />
+    <MESSAGE value="day 30 continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 30 continue" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python2$redo_main.coverage" NAME="redo_main Coverage Results" MODIFIED="1767653925819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20 - 21/Snake Game Redo" />
