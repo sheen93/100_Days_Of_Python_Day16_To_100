@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 30 continue">
-      <change afterPath="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/Exercise/Ex2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start/Day+5+Password+Generator+Project+Code/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/Nato Alphabet Project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/Nato Alphabet Project/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,21 +96,22 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/mshee/Desktop/Python2/day 28/Pomodoro-v2",
+    "last_opened_file_path": "C:/Users/mshee/Desktop/Python2/day 30/Try Catch Except Finally pattern",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "settings.editor.selected.configurable": "editor.preferences.completion.popup",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mshee\Desktop\Python2\day 30\Try Catch Except Finally pattern" />
       <recent name="C:\Users\mshee\Desktop\Python2\day 28\Pomodoro-v2" />
       <recent name="C:\Users\mshee\Desktop\Python2\day 26" />
       <recent name="C:\Users\mshee\Desktop\Python2\day 24" />
       <recent name="C:\Users\mshee\Desktop\Python2\day 18\Hirst Painting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Ex2">
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="Ex1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
@@ -155,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,37 +169,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 29/password-manager-start" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 29/password-manager-start/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100_Days_Of_Python_Day16_To_100" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 29/password-manager-start/Day+5+Password+Generator+Project+Code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 29/password-manager-start/Day+5+Password+Generator+Project+Code/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,20 +208,44 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_Days_Of_Python_Day16_To_100" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/Nato Alphabet Project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/Nato Alphabet Project/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Ex2" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.Ex1" />
-      <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.main (3)" />
+      <item itemvalue="Python.main (2)" />
       <item itemvalue="Python.main (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.Ex2" />
         <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.Ex1" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -289,14 +294,6 @@
       <workItem from="1768617026402" duration="9779000" />
       <workItem from="1768639635402" duration="1880000" />
       <workItem from="1768675507788" duration="22966000" />
-    </task>
-    <task id="LOCAL-00005" summary="xps 13: day 17 turtle_challenge4 done">
-      <option name="closed" value="true" />
-      <created>1766093991417</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1766093991417</updated>
     </task>
     <task id="LOCAL-00007" summary="xps 13: day 17 turtle_challenge4 done">
       <option name="closed" value="true" />
@@ -682,7 +679,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778688486141</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="day 30 continue">
+      <option name="closed" value="true" />
+      <created>1778695736367</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1778695736367</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
