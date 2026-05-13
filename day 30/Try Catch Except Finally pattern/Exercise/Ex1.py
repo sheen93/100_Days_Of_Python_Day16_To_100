@@ -8,4 +8,4 @@ def make_pie(index):
         fruit = fruits[index]
         print(fruit + " pie")
 
-make_pie(2)
+make_pie(5)

@@ -101,7 +101,7 @@
       <recent name="C:\Users\mshee\Desktop\Python2\day 18\Hirst Painting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Ex1">
+  <component name="RunManager" selected="Python.main (4)">
     <configuration name="Ex1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
@@ -115,6 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/Exercise/Ex1.py" />
       <option name="PARAMETERS" value="" />
@@ -138,6 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 29/password-manager-start/main.py" />
       <option name="PARAMETERS" value="" />
@@ -161,6 +163,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 24/Mail Merging/Mail+Merge+Project+Start/Mail Merge Project Start/main.py" />
       <option name="PARAMETERS" value="" />
@@ -184,6 +187,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 29/password-manager-start/Day+5+Password+Generator+Project+Code/main.py" />
       <option name="PARAMETERS" value="" />
@@ -207,6 +211,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/main.py" />
       <option name="PARAMETERS" value="" />
@@ -226,8 +231,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Ex1" />
         <item itemvalue="Python.main (4)" />
+        <item itemvalue="Python.Ex1" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (2)" />
@@ -295,14 +300,6 @@
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1766093991417</updated>
-    </task>
-    <task id="LOCAL-00006" summary="xps 13: day 17 turtle_challenge4 done">
-      <option name="closed" value="true" />
-      <created>1766088421682</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1766088421682</updated>
     </task>
     <task id="LOCAL-00007" summary="xps 13: day 17 turtle_challenge4 done">
       <option name="closed" value="true" />
@@ -672,7 +669,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776707120853</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="day 30 continue">
+      <option name="closed" value="true" />
+      <created>1777493372928</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1777493372929</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
