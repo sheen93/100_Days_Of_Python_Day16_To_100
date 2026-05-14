@@ -71,13 +71,13 @@ def find_password():
         messagebox.showinfo(title="Error", message="No Data File Found")
     else:
         if website in data:
-            # if user_entry.get() in data:
             user_email = data[website]["email/user"]
             password = data[website]["password"]
-            messagebox.showinfo(title=website, message=f"Email/User: {user_email}\n"
+            if user_email == user_entry.get():
+                messagebox.showinfo(title=website, message=f"Email/User: {user_email}\n"
                                                        f"Password: {password}")
-            # else:
-            #     messagebox.showinfo(title="Error", message=f"No data found for the website under user/email: {user_entry.get()}")
+            else:
+                messagebox.showinfo(title="Error", message=f"No data found for the website under user/email: {user_entry.get()}")
         else:
             messagebox.showinfo(title="Error", message=f"No data found for {website}")
 
@@ -85,10 +85,12 @@ def open_search_window():
     search_window = Toplevel(window)
     search_window.title("Secure Vault Search")
     search_window.config(padx=20, pady=20)
+    search_window.grab_set()
 
     Label(search_window, text="Enter Master Password: ").grid(column=0, row=0)
     master_entry = Entry(search_window, show="*")
     master_entry.grid(column=1, row=0)
+    search_window.focus = master_entry
 
     def verify_and_search():
         if master_entry.get() == "0000":
@@ -97,7 +99,7 @@ def open_search_window():
         else:
             messagebox.showerror("Denied", "Incorrect Master Password")
 
-    # search_window.bind("<Return>", lambda event: (verify_and_search()))
+    search_window.bind("<Return>", lambda event: (verify_and_search()))
     Button(search_window, text="Unlock & Search", command=verify_and_search).grid(column=1,row=1)
 
 # ---------------------------- UI SETUP ------------------------------- #
