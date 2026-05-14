@@ -107,6 +107,9 @@ window = Tk()
 window.title("Password Manager")
 window.config(padx=50, pady=50)
 
+window.bind("<Control-s>", lambda event: open_search_window())
+window.bind("<Control-g>", lambda event: generate_password())
+
 lock_img = PhotoImage(file="logo.png")
 canvas = Canvas(height=200, width=200)
 canvas.create_image(100,100,image=lock_img)
