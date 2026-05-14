@@ -90,7 +90,7 @@ def open_search_window():
     Label(search_window, text="Enter Master Password: ").grid(column=0, row=0)
     master_entry = Entry(search_window, show="*")
     master_entry.grid(column=1, row=0)
-    search_window.focus = master_entry
+    master_entry.focus()
 
     def verify_and_search():
         if master_entry.get() == "0000":
