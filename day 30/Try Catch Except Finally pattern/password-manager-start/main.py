@@ -46,10 +46,16 @@ def generate_password():
 
         password = "".join(random.choice(char_pool) for _ in range(length))
 
-        password_entry.delete(0,END)
-        password_entry.insert(0, password)
-        pyperclip.copy(password)
-        generate_window.destroy()
+        is_ok = messagebox.askyesno(title="Password Confirmation", message=f"Confirm Password\n"
+                                                                      f"Password: {password}")
+
+        if is_ok:
+            password_entry.delete(0,END)
+            password_entry.insert(0, password)
+            pyperclip.copy(password)
+            generate_window.destroy()
+        else:
+            pass
 
     def quick_random():
         custom_pass(length=16, use_nums=True, use_syms=True)
@@ -70,7 +76,7 @@ def save_pass():
     }
 
     if len(website) == 0 or len(password) == 0:
-        messagebox.showinfo(title="Oops!", message="Important field is empty!")
+        messagebox.showinfo(title="Error", message="Required field is empty!")
     else:
         is_ok = messagebox.showinfo(title=website, message=f"Email/User: {user_email}\n"
                                                       f"Password: {password}")
@@ -122,20 +128,31 @@ def open_search_window():
     search_window.config(padx=20, pady=20)
     search_window.grab_set()
 
-    Label(search_window, text="Enter Master Password: ").grid(column=0, row=0)
+    Label(search_window, text="Website/App: ").grid(column=0, row=0)
+    web_entry = Entry(search_window)
+    web_entry.grid(column=1, row=0)
+
+    Label(search_window, text="Master Pass: ").grid(column=0, row=1)
     master_entry = Entry(search_window, show="*")
-    master_entry.grid(column=1, row=0)
-    master_entry.focus()
+    master_entry.grid(column=1, row=1)
+
+    if website_entry.get() != "":
+        web_entry.insert(0,website_entry.get())
+        master_entry.focus()
+    else:
+        web_entry.focus()
 
     def verify_and_search():
-        if master_entry.get() == "0000":
+        if master_entry.get() != "0000":
+            messagebox.showerror("Denied", "Incorrect Master Password")
+        elif web_entry.get() == "":
+            messagebox.showerror("Denied", "Required Field Empty (Website/App)")
+        else:
             search_window.destroy()
             find_password()
-        else:
-            messagebox.showerror("Denied", "Incorrect Master Password")
 
     search_window.bind("<Return>", lambda event: (verify_and_search()))
-    Button(search_window, text="Unlock & Search", command=verify_and_search).grid(column=1,row=1)
+    Button(search_window, text="Unlock & Search", command=verify_and_search).grid(column=1,row=2)
 
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
