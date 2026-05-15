@@ -310,15 +310,7 @@
       <workItem from="1768675507788" duration="22966000" />
       <workItem from="1778707456422" duration="210000" />
       <workItem from="1778707728843" duration="6159000" />
-      <workItem from="1778768446081" duration="30817000" />
-    </task>
-    <task id="LOCAL-00015" summary="day 20 continue">
-      <option name="closed" value="true" />
-      <created>1767050464769</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1767050464769</updated>
+      <workItem from="1778768446081" duration="31188000" />
     </task>
     <task id="LOCAL-00016" summary="day 20 continue">
       <option name="closed" value="true" />
@@ -704,7 +696,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778863270229</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="day 30 continue password manager pro (xps)">
+      <option name="closed" value="true" />
+      <created>1778866830124</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1778866830124</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,7 +750,7 @@
     <SUITE FILE_PATH="coverage/Python2$crossing_turtle.coverage" NAME="crossing_turtle Coverage Results" MODIFIED="1768507150471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 23/Turtle Crossing" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge5.coverage" NAME="turtle_challenge5 Coverage Results" MODIFIED="1766863273721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/Python2$python_tuples.coverage" NAME="python_tuples Coverage Results" MODIFIED="1766773288048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
-    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1778866290159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start" />
+    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1778868506348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start" />
     <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$Other_Tkinter_Widgets.coverage" NAME="Other_Tkinter_Widgets Coverage Results" MODIFIED="1778851904269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 27/Intro to Tkinter" />
     <SUITE FILE_PATH="coverage/Python2$redo_main.coverage" NAME="redo_main Coverage Results" MODIFIED="1767653925819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20 - 21/Snake Game Redo" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge4.coverage" NAME="turtle_challenge4 Coverage Results" MODIFIED="1766771848692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />

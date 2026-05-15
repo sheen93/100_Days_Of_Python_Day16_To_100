@@ -110,6 +110,9 @@ def save_pass():
                 # new entry
                 data[website] = [{"email/user": user_email, "password": password}]
 
+            with open("data.json", "w") as data_file:
+                json.dump(data, data_file, indent=4)
+
                 website_entry.delete(0, END)
                 password_entry.delete(0, END)
 # ---------------------------- FIND PASSWORD ------------------------------- #
