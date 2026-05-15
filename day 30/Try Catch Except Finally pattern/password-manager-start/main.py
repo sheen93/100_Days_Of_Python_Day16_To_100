@@ -87,14 +87,28 @@ def save_pass():
                     data = json.load(data_file)
             except FileNotFoundError:
                 # If file doesn't exist, start with the new_data
-                data = new_data
+                data = {}
+
+            # Check if website already exists
+            if website in data:
+                # if it's a list, append
+                if isinstance(data[website], dict):
+                    # if old data, convert to a list
+                    data[website] = [data[website]]
+
+                # check if email exists to avoid email duplication
+                email_exists = False
+                for account in data[website]:
+                    if account["email/user"] == user_email:
+                        account["password"] = password
+                        email_exists = True
+
+                if not email_exists:
+                    data[website].append({"email/user": user_email, "password": password})
+
             else:
-                # updating old data with new data
-                data.update(new_data)
-            finally:
-                # saving updated data
-                with open("data.json", "w") as data_file:
-                    json.dump(data, data_file, indent=4)
+                # new entry
+                data[website] = [{"email/user": user_email, "password": password}]
 
                 website_entry.delete(0, END)
                 password_entry.delete(0, END)
