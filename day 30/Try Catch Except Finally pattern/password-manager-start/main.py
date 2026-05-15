@@ -8,20 +8,55 @@ import json
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
-    letters = string.ascii_letters
-    numbers = string.digits
-    symbols = "!#$%&()*+"
+    # Generate Window Creation
+    generate_window = Toplevel()
+    generate_window.title("Generate Password")
+    generate_window.config(padx=50, pady=50)
 
-    password_list = [str(random.choice(letters)) for _ in range(random.randint(8, 10))]
-    password_list += [str(random.choice(numbers)) for _ in range(random.randint(2, 4))]
-    password_list += [str(random.choice(symbols)) for _ in range(random.randint(2, 4))]
+    # UI Layout
+    Label(generate_window, text="Min Char: ").grid(column=1, row=1, columnspan=1, sticky="EW")
 
-    random.shuffle(password_list)
-    password = "".join(password_list)
+    min_scale = Spinbox(
+        generate_window,
+        from_=8, to=32,
+        width=8, justify="center"
+    )
+    min_scale.delete(0,END)
+    min_scale.insert(0,"12")
+    min_scale.grid(column=2,row=1, sticky="E")
 
-    password_entry.delete(0, END)
-    password_entry.insert(0, password)
-    pyperclip.copy(password)
+    num_state = IntVar(value=1)
+    Checkbutton(generate_window, text="Numbers", variable=num_state).grid(column=1, row=2, columnspan=1, sticky="EW")
+    sym_state = IntVar(value=1)
+    Checkbutton(generate_window, text="Symbols", variable=sym_state).grid(column=2, row=2, columnspan=1, sticky="EW")
+
+    def custom_pass(length=None, use_nums=None, use_syms=None):
+        if length is None:
+            try:
+                length = int(min_scale.get())
+                use_nums = num_state.get()
+                use_syms = sym_state.get()
+            except ValueError:
+                messagebox.showwarning("Error", "Enter a valid number")
+                return
+
+        char_pool = string.ascii_letters
+        if use_nums: char_pool += string.digits
+        if use_syms: char_pool += "!#$%&()*+"
+
+        password = "".join(random.choice(char_pool) for _ in range(length))
+
+        password_entry.delete(0,END)
+        password_entry.insert(0, password)
+        pyperclip.copy(password)
+        generate_window.destroy()
+
+    def quick_random():
+        custom_pass(length=16, use_nums=True, use_syms=True)
+
+    Button(generate_window, text="Generate", command=custom_pass).grid(column=1, row=3, columnspan=1, sticky="EW")
+    Button(generate_window, text="Random", command=quick_random).grid(column=2, row=3, columnspan=1, sticky="EW")
+
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save_pass():
     website = website_entry.get()
