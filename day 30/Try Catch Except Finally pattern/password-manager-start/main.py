@@ -1,10 +1,19 @@
-import email
+import os
+import sys
 from tkinter import *
 from tkinter import messagebox
 import random
 import string
 import pyperclip
 import json
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
@@ -180,8 +189,9 @@ def open_search_window():
         elif web_entry.get() == "":
             messagebox.showerror("Denied", "Required Field Empty (Website/App)")
         else:
+            search_term = web_entry.get()
             search_window.destroy()
-            find_password(website_entry.get())
+            find_password(search_term)
 
     search_window.bind("<Return>", lambda event: (verify_and_search()))
     Button(search_window, text="Unlock & Search", command=verify_and_search).grid(column=1,row=2)
@@ -194,7 +204,7 @@ window.config(padx=50, pady=50)
 window.bind("<Control-s>", lambda event: open_search_window())
 window.bind("<Control-g>", lambda event: generate_password())
 
-lock_img = PhotoImage(file="logo.png")
+lock_img = PhotoImage(file=resource_path("logo.png"))
 canvas = Canvas(height=200, width=200)
 canvas.create_image(100,100,image=lock_img)
 canvas.grid(column=1, row=0)
