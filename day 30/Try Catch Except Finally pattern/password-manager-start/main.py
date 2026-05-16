@@ -116,28 +116,43 @@ def save_pass():
                 website_entry.delete(0, END)
                 password_entry.delete(0, END)
 # ---------------------------- FIND PASSWORD ------------------------------- #
-def find_password():
-    website = website_entry.get()
-    master_pass = "0000"
-
-    # verify = messagebox.askquestion("Security Check", "Are you an authorized user?")
+def find_password(search_term):
 
     try:
         with open("data.json", "r") as data_file:
             data = json.load(data_file)
     except FileNotFoundError:
         messagebox.showinfo(title="Error", message="No Data File Found")
+        return
+
+    matches = []
+    for site_key in data:
+        if search_term.lower() in site_key.lower():
+            accounts = data[site_key]
+            if isinstance(accounts, dict):
+                accounts = [accounts]
+
+            for acc in accounts:
+                matches.append(f"Website/App: {site_key}\n"
+                               f"User/Email: {acc["email/user"]}\n"
+                               f"Password: {acc["password"]}")
+
+    if matches:
+        messagebox.showinfo(title="Search Results", message="\n--------------------\n".join(matches))
     else:
-        if website in data:
-            user_email = data[website]["email/user"]
-            password = data[website]["password"]
-            if user_email == user_entry.get():
-                messagebox.showinfo(title=website, message=f"Email/User: {user_email}\n"
-                                                       f"Password: {password}")
-            else:
-                messagebox.showinfo(title="Error", message=f"No data found for the website under user/email: {user_entry.get()}")
-        else:
-            messagebox.showinfo(title="Error", message=f"No data found for {website}")
+        messagebox.showinfo(title="Not Found", message=f"No matches for {search_term}")
+
+    # else:
+    #     if website in data:
+    #         user_email = data[website]["email/user"]
+    #         password = data[website]["password"]
+    #         if user_email == user_entry.get():
+    #             messagebox.showinfo(title=website, message=f"Email/User: {user_email}\n"
+    #                                                    f"Password: {password}")
+    #         else:
+    #             messagebox.showinfo(title="Error", message=f"No data found for the website under user/email: {user_entry.get()}")
+    #     else:
+    #         messagebox.showinfo(title="Error", message=f"No data found for {website}")
 
 def open_search_window():
     search_window = Toplevel(window)
@@ -166,7 +181,7 @@ def open_search_window():
             messagebox.showerror("Denied", "Required Field Empty (Website/App)")
         else:
             search_window.destroy()
-            find_password()
+            find_password(website_entry.get())
 
     search_window.bind("<Return>", lambda event: (verify_and_search()))
     Button(search_window, text="Unlock & Search", command=verify_and_search).grid(column=1,row=2)
