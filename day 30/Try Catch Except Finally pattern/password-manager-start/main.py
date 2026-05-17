@@ -151,17 +151,6 @@ def find_password(search_term):
     else:
         messagebox.showinfo(title="Not Found", message=f"No matches for {search_term}")
 
-    # else:
-    #     if website in data:
-    #         user_email = data[website]["email/user"]
-    #         password = data[website]["password"]
-    #         if user_email == user_entry.get():
-    #             messagebox.showinfo(title=website, message=f"Email/User: {user_email}\n"
-    #                                                    f"Password: {password}")
-    #         else:
-    #             messagebox.showinfo(title="Error", message=f"No data found for the website under user/email: {user_entry.get()}")
-    #     else:
-    #         messagebox.showinfo(title="Error", message=f"No data found for {website}")
 
 def open_search_window():
     search_window = Toplevel(window)
