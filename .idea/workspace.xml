@@ -128,7 +128,7 @@
       <recent name="C:\Users\mshee\Desktop\Python2\day 24" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main (3)">
     <configuration name="Other_Tkinter_Widgets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
@@ -263,8 +263,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.Other_Tkinter_Widgets" />
         <item itemvalue="Python.main" />
@@ -333,22 +333,7 @@
       <workItem from="1779394693140" duration="2218000" />
       <workItem from="1779465015431" duration="408000" />
       <workItem from="1779465672901" duration="590000" />
-    </task>
-    <task id="LOCAL-00021" summary="day 20-21 continue">
-      <option name="closed" value="true" />
-      <created>1767121243557</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1767121243557</updated>
-    </task>
-    <task id="LOCAL-00022" summary="day 20-21 continue">
-      <option name="closed" value="true" />
-      <created>1767650898692</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1767650898692</updated>
+      <workItem from="1779670255547" duration="10678000" />
     </task>
     <task id="LOCAL-00023" summary="day 20-21 continue">
       <option name="closed" value="true" />
@@ -726,7 +711,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779491592656</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="day 31 continue flashy (xps)">
+      <option name="closed" value="true" />
+      <created>1779657715104</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1779657715105</updated>
+    </task>
+    <task id="LOCAL-00071" summary="day 31 continue flashy pro (xps)">
+      <option name="closed" value="true" />
+      <created>1779677571449</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1779677571449</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -756,7 +757,9 @@
     <MESSAGE value="day 30 continue" />
     <MESSAGE value="day 30 continue password manager" />
     <MESSAGE value="day 30 continue password manager pro (xps)" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 30 continue password manager pro (xps)" />
+    <MESSAGE value="day 31 continue flashy (xps)" />
+    <MESSAGE value="day 31 continue flashy pro (xps)" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 31 continue flashy pro (xps)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python2$main.coverage" NAME="main Coverage Results" MODIFIED="1768691703817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19/Turtle Race" />
@@ -769,14 +772,14 @@
     <SUITE FILE_PATH="coverage/Python2$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1768696733639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 24/File Manipulation/Abs/Rerlative Path" />
     <SUITE FILE_PATH="coverage/Python2$hirst_painting_project.coverage" NAME="hirst_painting_project Coverage Results" MODIFIED="1766888630723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Hirst Painting" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge3__1_.coverage" NAME="turtle_challenge3 (1) Coverage Results" MODIFIED="1766774744093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
-    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1779397865757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 31/FlashyPro" />
+    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1779686951545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 31/FlashyPro" />
     <SUITE FILE_PATH="coverage/Python2$crossing_turtle.coverage" NAME="crossing_turtle Coverage Results" MODIFIED="1768507150471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 23/Turtle Crossing" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge5.coverage" NAME="turtle_challenge5 Coverage Results" MODIFIED="1766863273721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/Python2$python_tuples.coverage" NAME="python_tuples Coverage Results" MODIFIED="1766773288048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1778985321699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start" />
     <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$Other_Tkinter_Widgets.coverage" NAME="Other_Tkinter_Widgets Coverage Results" MODIFIED="1778851904269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 27/Intro to Tkinter" />
     <SUITE FILE_PATH="coverage/Python2$redo_main.coverage" NAME="redo_main Coverage Results" MODIFIED="1767653925819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20 - 21/Snake Game Redo" />
-    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1779465453030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 31/flash-card-project-start" />
+    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1779677051594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 31/flash-card-project-start" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge4.coverage" NAME="turtle_challenge4 Coverage Results" MODIFIED="1766771848692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/Python2$higher_order_functions_and_event_listener.coverage" NAME="higher_order_functions_and_event_listener Coverage Results" MODIFIED="1766889430754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19" />
     <SUITE FILE_PATH="coverage/Python2$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1768716564491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 24/Mail Merging/Mail+Merge+Project+Start/Mail Merge Project Start" />
