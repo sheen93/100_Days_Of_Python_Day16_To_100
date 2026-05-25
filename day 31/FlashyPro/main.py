@@ -107,7 +107,7 @@ current_card = {}
 #         next_card()
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     root = Tk()
     app = WelcomeWindow(root)
     root.mainloop()
