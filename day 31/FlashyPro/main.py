@@ -10,7 +10,7 @@ LANGUAGE_DATA = {
 
 class WelcomeWindow:
     def __init__(self,root):
-        self.root = root
+        self.root = root # defining self for welcome screen
         self.root.title("Welcome to Flashy Pro")
         self.root.config(padx=50, pady=50, bg= BACKGROUND_COLOR)
 
@@ -20,9 +20,9 @@ class WelcomeWindow:
         Button(root, text= "French", command=lambda: self.start_app("French")).grid(column=3, row=1)
 
     def start_app(self, language):
-        self.root.destroy()
+        self.root.destroy() # destroy welcome screen
 
-        main_root = Tk()
+        main_root = Tk() # main page layer
         app = FlashyApp(main_root, language)
         main_root.mainloop()
 
@@ -79,6 +79,11 @@ except FileNotFoundError:
     word_dict = df.to_dict(orient="records")
 current_card = {}
 
+if __name__ == "__main__":
+    root = Tk()
+    app = WelcomeWindow(root)
+    root.mainloop()
+
 
 # def next_card():
 #     global current_card, flip_timer
@@ -105,9 +110,3 @@ current_card = {}
 #         canvas.itemconfig(card_word, text= current_card["ENGLISH"], fill="white")
 #     except KeyError:
 #         next_card()
-
-
-if __name__ == "__main__":
-    root = Tk()
-    app = WelcomeWindow(root)
-    root.mainloop()
