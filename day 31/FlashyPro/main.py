@@ -4,8 +4,8 @@ import pandas
 
 BACKGROUND_COLOR = "#B1DDC6"
 LANGUAGE_DATA = {
-    "Spanish" : "data/spanish_words.csv",
-    "French" : "data/frecnh_words.csv"
+    "Spanish" : "data/spanish/spanish_words.csv",
+    "french" : "data/french/frecnh_words.csv"
 }
 
 class WelcomeWindow:
@@ -17,7 +17,7 @@ class WelcomeWindow:
         Label(root, text="language: ", bg=BACKGROUND_COLOR, font= ("Ariel", 20)).grid(column=1, row=0)
 
         Button(root, text="Spanish", command=lambda: self.start_app("Spanish")).grid(column=0, row=1)
-        Button(root, text= "French", command=lambda: self.start_app("French")).grid(column=3, row=1)
+        Button(root, text= "french", command=lambda: self.start_app("french")).grid(column=3, row=1)
 
     def start_app(self, language):
         self.root.destroy() # destroy welcome screen
@@ -38,6 +38,8 @@ class FlashyApp:
         self.current_card = {}
         self.flip_timer = None
         self.word_dict = self.load_data()
+
+        this is for testing purpose
 
         # ui elements
         self.canvas = Canvas(window, height=526, width=800, bg=BACKGROUND_COLOR, highlightthickness=0)
