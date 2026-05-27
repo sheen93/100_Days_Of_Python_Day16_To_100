@@ -39,8 +39,6 @@ class FlashyApp:
         self.flip_timer = None
         self.word_dict = self.load_data()
 
-        this is for testing purpose
-
         # ui elements
         self.canvas = Canvas(window, height=526, width=800, bg=BACKGROUND_COLOR, highlightthickness=0)
         self.front_img = PhotoImage(file="images/card_front.png")
