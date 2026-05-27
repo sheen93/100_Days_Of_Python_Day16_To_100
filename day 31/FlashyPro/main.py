@@ -4,8 +4,8 @@ import pandas
 
 BACKGROUND_COLOR = "#B1DDC6"
 LANGUAGE_DATA = {
-    "Spanish" : "data/spanish_words.csv",
-    "French" : "data/frecnh_words.csv"
+    "Spanish" : "data/spanish/spanish_words.csv",
+    "French" : "data/french/frecnh_words.csv"
 }
 
 class WelcomeWindow:
@@ -75,7 +75,7 @@ try:
     df = pandas.read_csv("data/word_to_learn.csv")
     word_dict = df.to_dict(orient="records")
 except FileNotFoundError:
-    df = pandas.read_csv("data/spanish_words.csv")
+    df = pandas.read_csv("data/spanish/spanish_words.csv")
     word_dict = df.to_dict(orient="records")
 current_card = {}
 
