@@ -1,11 +1,20 @@
+from pydoc import text
 from tkinter import *
 import random
+
+from xdg.Config import language
+
 import pandas
+from numpy.f2py.crackfortran import currentfilename
 
 BACKGROUND_COLOR = "#B1DDC6"
 LANGUAGE_DATA = {
-    "Spanish" : "data/spanish/spanish_words.csv",
-    "french" : "data/french/frecnh_words.csv"
+    "Spanish" : {
+        "master_file":"data/spanish/spanish_words.csv",
+        "save_file":"data/spanish/words_to_learn"},
+    "French" : {
+        "master_file":"data/french/frecnh_words.csv",
+        "save_file":"data/spanish/words_to_learn"}
 }
 
 class WelcomeWindow:
@@ -29,10 +38,15 @@ class WelcomeWindow:
 class FlashyApp:
     def __init__(self, window, language):
         self.window = window
+
         self.language = language
-        self.file_path = LANGUAGE_DATA[language]
+        self.master_path = LANGUAGE_DATA[language]["master_file"]
+        self.save_path = LANGUAGE_DATA[language]["save_file"]
+
         self.window.title("Flashy Pro")
         self.window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
+
+        self.flip_timer = self.window.after(3000, self.flip_card)
 
         # state variables
         self.current_card = {}
@@ -63,21 +77,31 @@ class FlashyApp:
 
 
     def next_card(self):
-        pass
+        self.window.after_cancel(self.flip_timer)
+        current_card=random.choice(self.word_dict)
+        lang_key = LANGUAGE_DATA[self.language]
+        self.canvas.itemconfig(self.card_background,image=self.front_img)
+        self.canvas.itemconfig(self.card_title, text=lang_key)
+        self.canvas.itemconfig(self.card_word, text=current_card[language], fill="black")
+        self.flip_timer = self.window(3000, self.flip_card)
+
+
     def flip_card(self):
         pass
-    def remove_item(self):
-        pass
-    def load_data(self):
-        pass
 
-try:
-    df = pandas.read_csv("data/word_to_learn.csv")
-    word_dict = df.to_dict(orient="records")
-except FileNotFoundError:
-    df = pandas.read_csv("data/spanish_words.csv")
-    word_dict = df.to_dict(orient="records")
-current_card = {}
+    def remove_item(self):
+        self.word_dict.remove(self.current_card)
+
+        to_learn_df = pandas.DataFrame(self.word_dict)
+        to_learn_df.to_csv(self.save_path, index=False)
+
+    def load_data(self):
+        try:
+            df=pandas.read_csv(self.save_path)
+        except FileNotFoundError:
+            df=pandas.read_csv(self.master_path)
+
+        return df.to_dict(orient="records")
 
 if __name__ == "__main__":
     root = Tk()
