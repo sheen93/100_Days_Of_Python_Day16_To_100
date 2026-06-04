@@ -1,11 +1,16 @@
 from tkinter import *
 import random
 import pandas
+from numpy.f2py.crackfortran import currentfilename
 
 BACKGROUND_COLOR = "#B1DDC6"
 LANGUAGE_DATA = {
-    "Spanish" : "data/spanish/spanish_words.csv",
-    "French" : "data/french/frecnh_words.csv"
+    "Spanish" : {
+        "master_file":"data/spanish/spanish_words.csv",
+        "save_file":"data/spanish/words_to_learn.csv"},
+    "French" : {
+        "master_file":"data/french/french_words.csv",
+        "save_file":"data/french/words_to_learn.csv"}
 }
 
 class WelcomeWindow:
@@ -29,8 +34,11 @@ class WelcomeWindow:
 class FlashyApp:
     def __init__(self, window, language):
         self.window = window
+
         self.language = language
-        self.file_path = LANGUAGE_DATA[language]
+        self.master_path = LANGUAGE_DATA[language]["master_file"]
+        self.save_path = LANGUAGE_DATA[language]["save_file"]
+
         self.window.title("Flashy Pro")
         self.window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
 
@@ -63,21 +71,42 @@ class FlashyApp:
 
 
     def next_card(self):
-        pass
-    def flip_card(self):
-        pass
-    def remove_item(self):
-        pass
-    def load_data(self):
-        pass
+        if self.flip_timer is not None:
+            self.window.after_cancel(self.flip_timer)
+        self.current_card=random.choice(self.word_dict)
+        self.canvas.itemconfig(self.card_background,image=self.front_img)
+        self.canvas.itemconfig(self.card_title, text=self.language, fill="black")
+        current_word=self.current_card[self.language.upper()]
+        self.canvas.itemconfig(self.card_word, text=current_word, fill="black")
+        self.flip_timer = self.window.after(3000, self.flip_card)
 
-try:
-    df = pandas.read_csv("data/word_to_learn.csv")
-    word_dict = df.to_dict(orient="records")
-except FileNotFoundError:
-    df = pandas.read_csv("data/spanish/spanish_words.csv")
-    word_dict = df.to_dict(orient="records")
-current_card = {}
+
+    def flip_card(self):
+        if self.flip_timer is not None:
+            self.window.after_cancel(self.flip_timer)
+        try:
+            self.canvas.itemconfig(self.card_background, image=self.back_img)
+            self.canvas.itemconfig(self.card_title, text="English", fill="white")
+            self.canvas.itemconfig(self.card_word, text=self.current_card["ENGLISH"], fill="white")
+        except KeyError:
+            self.next_card()
+
+    def remove_item(self):
+        if self.current_card in self.word_dict:
+            self.word_dict.remove(self.current_card)
+
+            to_learn_df = pandas.DataFrame(self.word_dict)
+            to_learn_df.to_csv(self.save_path, index=False)
+
+        self.next_card()
+
+    def load_data(self):
+        try:
+            df=pandas.read_csv(self.save_path)
+        except FileNotFoundError:
+            df=pandas.read_csv(self.master_path)
+
+        return df.to_dict(orient="records")
 
 if __name__ == "__main__":
     root = Tk()

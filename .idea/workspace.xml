@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 30 continue">
-      <change afterPath="$PROJECT_DIR$/day 31/FlashyPro/data/EsToEn.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 31/FlashyPro/data/es_50k.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 31/FlashyPro/data/french_words.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 31/FlashyPro/images/card_back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 31/FlashyPro/images/card_front.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 31/FlashyPro/images/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 31/FlashyPro/images/wrong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 31/FlashyPro/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day 31/flash-card-project-start/data/small_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 30 continue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +93,7 @@
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;testing&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/mshee/Desktop/Python2/day 30/Try Catch Except Finally pattern&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -129,8 +118,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/day 31/FlashyPro/data/spanish" />
-      <recent name="$PROJECT_DIR$/day 31/FlashyPro/data/french" />
-      <recent name="$PROJECT_DIR$/day 31/flash-card-project-start/data" />
+      <recent name="$PROJECT_DIR$/day 31/FlashyPro/data/frnech" />
+      <recent name="$PROJECT_DIR$/day 31/flash-card-project-start/data/spanish" />
+      <recent name="$PROJECT_DIR$/day 31/flash-card-project-start/data/french" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main (3)">
@@ -269,10 +259,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main (3)" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.Other_Tkinter_Widgets" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.Other_Tkinter_Widgets" />
       </list>
     </recent_temporary>
   </component>
@@ -339,14 +329,7 @@
       <workItem from="1779465015431" duration="408000" />
       <workItem from="1779465672901" duration="590000" />
       <workItem from="1779670255547" duration="11631000" />
-    </task>
-    <task id="LOCAL-00025" summary="day 22 continue">
-      <option name="closed" value="true" />
-      <created>1767726982891</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1767726982891</updated>
+      <workItem from="1780187979812" duration="2753000" />
     </task>
     <task id="LOCAL-00026" summary="day 22 continue">
       <option name="closed" value="true" />
@@ -732,7 +715,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779687202566</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="day 31 continue flashy pro (xps, testing)">
+      <option name="closed" value="true" />
+      <created>1780196220929</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1780196220929</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -764,7 +755,8 @@
     <MESSAGE value="day 30 continue password manager pro (xps)" />
     <MESSAGE value="day 31 continue flashy (xps)" />
     <MESSAGE value="day 31 continue flashy pro (xps)" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 31 continue flashy pro (xps)" />
+    <MESSAGE value="day 31 continue flashy pro (xps, testing)" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 31 continue flashy pro (xps, testing)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python2$main.coverage" NAME="main Coverage Results" MODIFIED="1768691703817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19/Turtle Race" />
@@ -777,7 +769,7 @@
     <SUITE FILE_PATH="coverage/Python2$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1768696733639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 24/File Manipulation/Abs/Rerlative Path" />
     <SUITE FILE_PATH="coverage/Python2$hirst_painting_project.coverage" NAME="hirst_painting_project Coverage Results" MODIFIED="1766888630723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Hirst Painting" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge3__1_.coverage" NAME="turtle_challenge3 (1) Coverage Results" MODIFIED="1766774744093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
-    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1779899439882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 31/FlashyPro" />
+    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1780531520091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 31/FlashyPro" />
     <SUITE FILE_PATH="coverage/Python2$crossing_turtle.coverage" NAME="crossing_turtle Coverage Results" MODIFIED="1768507150471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 23/Turtle Crossing" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge5.coverage" NAME="turtle_challenge5 Coverage Results" MODIFIED="1766863273721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/Python2$python_tuples.coverage" NAME="python_tuples Coverage Results" MODIFIED="1766773288048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
