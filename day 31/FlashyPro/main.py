@@ -1,9 +1,5 @@
-from pydoc import text
 from tkinter import *
 import random
-
-from xdg.Config import language
-
 import pandas
 from numpy.f2py.crackfortran import currentfilename
 
@@ -11,10 +7,10 @@ BACKGROUND_COLOR = "#B1DDC6"
 LANGUAGE_DATA = {
     "Spanish" : {
         "master_file":"data/spanish/spanish_words.csv",
-        "save_file":"data/spanish/words_to_learn"},
+        "save_file":"data/spanish/words_to_learn.csv"},
     "French" : {
-        "master_file":"data/french/frecnh_words.csv",
-        "save_file":"data/spanish/words_to_learn"}
+        "master_file":"data/french/french_words.csv",
+        "save_file":"data/french/words_to_learn.csv"}
 }
 
 class WelcomeWindow:
@@ -26,7 +22,7 @@ class WelcomeWindow:
         Label(root, text="language: ", bg=BACKGROUND_COLOR, font= ("Ariel", 20)).grid(column=1, row=0)
 
         Button(root, text="Spanish", command=lambda: self.start_app("Spanish")).grid(column=0, row=1)
-        Button(root, text= "french", command=lambda: self.start_app("french")).grid(column=3, row=1)
+        Button(root, text= "French", command=lambda: self.start_app("French")).grid(column=3, row=1)
 
     def start_app(self, language):
         self.root.destroy() # destroy welcome screen
@@ -45,8 +41,6 @@ class FlashyApp:
 
         self.window.title("Flashy Pro")
         self.window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
-
-        self.flip_timer = self.window.after(3000, self.flip_card)
 
         # state variables
         self.current_card = {}
@@ -77,23 +71,34 @@ class FlashyApp:
 
 
     def next_card(self):
-        self.window.after_cancel(self.flip_timer)
-        current_card=random.choice(self.word_dict)
-        lang_key = LANGUAGE_DATA[self.language]
+        if self.flip_timer is not None:
+            self.window.after_cancel(self.flip_timer)
+        self.current_card=random.choice(self.word_dict)
         self.canvas.itemconfig(self.card_background,image=self.front_img)
-        self.canvas.itemconfig(self.card_title, text=lang_key)
-        self.canvas.itemconfig(self.card_word, text=current_card[language], fill="black")
-        self.flip_timer = self.window(3000, self.flip_card)
+        self.canvas.itemconfig(self.card_title, text=self.language, fill="black")
+        current_word=self.current_card[self.language.upper()]
+        self.canvas.itemconfig(self.card_word, text=current_word, fill="black")
+        self.flip_timer = self.window.after(3000, self.flip_card)
 
 
     def flip_card(self):
-        pass
+        if self.flip_timer is not None:
+            self.window.after_cancel(self.flip_timer)
+        try:
+            self.canvas.itemconfig(self.card_background, image=self.back_img)
+            self.canvas.itemconfig(self.card_title, text="English", fill="white")
+            self.canvas.itemconfig(self.card_word, text=self.current_card["ENGLISH"], fill="white")
+        except KeyError:
+            self.next_card()
 
     def remove_item(self):
-        self.word_dict.remove(self.current_card)
+        if self.current_card in self.word_dict:
+            self.word_dict.remove(self.current_card)
 
-        to_learn_df = pandas.DataFrame(self.word_dict)
-        to_learn_df.to_csv(self.save_path, index=False)
+            to_learn_df = pandas.DataFrame(self.word_dict)
+            to_learn_df.to_csv(self.save_path, index=False)
+
+        self.next_card()
 
     def load_data(self):
         try:
