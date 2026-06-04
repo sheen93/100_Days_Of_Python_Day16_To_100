@@ -112,30 +112,3 @@ if __name__ == "__main__":
     root = Tk()
     app = WelcomeWindow(root)
     root.mainloop()
-
-
-# def next_card():
-#     global current_card, flip_timer
-#     window.after_cancel(flip_timer)
-#     current_card = random.choice(word_dict)
-#     spanish_lang_key = list(current_card.keys())[0]
-#     canvas.itemconfig(card_background, image=front_img)
-#     canvas.itemconfig(card_title, text= spanish_lang_key, fill="black")
-#     canvas.itemconfig(card_word, text= current_card["SPANISH"], fill="black")
-#     flip_timer = window.after(3000, flip_card)
-#
-# def remove_known():
-#     print(f"{current_card} is known to user")
-#     word_dict.remove(current_card)
-#     to_learn_df = pandas.DataFrame(word_dict)
-#     to_learn_df.to_csv("data/word_to_learn.csv", index=False)
-#     next_card()
-#
-# def flip_card():
-#     global current_card
-#     try:
-#         canvas.itemconfig(card_background, image=back_img)
-#         canvas.itemconfig(card_title, text= "English", fill="white")
-#         canvas.itemconfig(card_word, text= current_card["ENGLISH"], fill="white")
-#     except KeyError:
-#         next_card()

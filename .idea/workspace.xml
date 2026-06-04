@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="testing" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,7 +93,7 @@
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;testing&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/mshee/Desktop/Python2/day 30/Try Catch Except Finally pattern&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -330,14 +330,6 @@
       <workItem from="1779465672901" duration="590000" />
       <workItem from="1779670255547" duration="11631000" />
       <workItem from="1780187979812" duration="2753000" />
-    </task>
-    <task id="LOCAL-00026" summary="day 22 continue">
-      <option name="closed" value="true" />
-      <created>1767727094401</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1767727094401</updated>
     </task>
     <task id="LOCAL-00027" summary="day 22 continue">
       <option name="closed" value="true" />
@@ -723,7 +715,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780196220929</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="day 31 continue flashy pro (xps, master)">
+      <option name="closed" value="true" />
+      <created>1780532270551</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1780532270551</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -756,7 +756,8 @@
     <MESSAGE value="day 31 continue flashy (xps)" />
     <MESSAGE value="day 31 continue flashy pro (xps)" />
     <MESSAGE value="day 31 continue flashy pro (xps, testing)" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 31 continue flashy pro (xps, testing)" />
+    <MESSAGE value="day 31 continue flashy pro (xps, master)" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 31 continue flashy pro (xps, master)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python2$main.coverage" NAME="main Coverage Results" MODIFIED="1768691703817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19/Turtle Race" />
