@@ -1,7 +1,6 @@
 from tkinter import *
 import random
 import pandas
-from numpy.f2py.crackfortran import currentfilename
 
 BACKGROUND_COLOR = "#B1DDC6"
 LANGUAGE_DATA = {
