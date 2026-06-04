@@ -44,7 +44,7 @@ class FlashyApp:
 
         # state variables
         self.current_card = {}
-        self.flip_timer = None
+        self.countdown_timer = None
         self.word_dict = self.load_data()
 
         # ui elements
@@ -54,6 +54,7 @@ class FlashyApp:
         self.card_background = self.canvas.create_image(400, 263, image=self.front_img)
         self.card_title = self.canvas.create_text(400, 150, text="Title", font=("Ariel", 20, "italic"))
         self.card_word = self.canvas.create_text(400, 263, text="word", font=("Ariel", 40, "bold"))
+        self.card_timer = self.canvas.create_text(700, 50, text="", font=("Ariel", 20, "bold"), fill="gray")
         self.canvas.grid(column=0,row=0, columnspan=3)
 
         # buttons
@@ -69,25 +70,29 @@ class FlashyApp:
         self.unknown_button = Button(image=self.unknown_img, highlightthickness=0, command=self.next_card)
         self.unknown_button.grid(column=2, row=1)
 
+        self.next_card()
+
 
     def next_card(self):
-        if self.flip_timer is not None:
-            self.window.after_cancel(self.flip_timer)
+        if self.countdown_timer is not None:
+            self.window.after_cancel(self.countdown_timer)
         self.current_card=random.choice(self.word_dict)
         self.canvas.itemconfig(self.card_background,image=self.front_img)
         self.canvas.itemconfig(self.card_title, text=self.language, fill="black")
         current_word=self.current_card[self.language.upper()]
         self.canvas.itemconfig(self.card_word, text=current_word, fill="black")
-        self.flip_timer = self.window.after(3000, self.flip_card)
+
+        self.count_down(3)
 
 
     def flip_card(self):
-        if self.flip_timer is not None:
-            self.window.after_cancel(self.flip_timer)
+        if self.countdown_timer is not None:
+            self.window.after_cancel(self.countdown_timer)
         try:
             self.canvas.itemconfig(self.card_background, image=self.back_img)
             self.canvas.itemconfig(self.card_title, text="English", fill="white")
             self.canvas.itemconfig(self.card_word, text=self.current_card["ENGLISH"], fill="white")
+            self.canvas.itemconfig(self.card_timer, text="")
         except KeyError:
             self.next_card()
 
@@ -108,34 +113,15 @@ class FlashyApp:
 
         return df.to_dict(orient="records")
 
+    def count_down(self, count):
+        self.canvas.itemconfig(self.card_timer, text=f"{count}s")
+
+        if count > 0:
+            self.countdown_timer = self.window.after(1000, self.count_down, count-1)
+        else:
+            self.flip_card()
+
 if __name__ == "__main__":
     root = Tk()
     app = WelcomeWindow(root)
     root.mainloop()
-
-
-# def next_card():
-#     global current_card, flip_timer
-#     window.after_cancel(flip_timer)
-#     current_card = random.choice(word_dict)
-#     spanish_lang_key = list(current_card.keys())[0]
-#     canvas.itemconfig(card_background, image=front_img)
-#     canvas.itemconfig(card_title, text= spanish_lang_key, fill="black")
-#     canvas.itemconfig(card_word, text= current_card["SPANISH"], fill="black")
-#     flip_timer = window.after(3000, flip_card)
-#
-# def remove_known():
-#     print(f"{current_card} is known to user")
-#     word_dict.remove(current_card)
-#     to_learn_df = pandas.DataFrame(word_dict)
-#     to_learn_df.to_csv("data/word_to_learn.csv", index=False)
-#     next_card()
-#
-# def flip_card():
-#     global current_card
-#     try:
-#         canvas.itemconfig(card_background, image=back_img)
-#         canvas.itemconfig(card_title, text= "English", fill="white")
-#         canvas.itemconfig(card_word, text= current_card["ENGLISH"], fill="white")
-#     except KeyError:
-#         next_card()
