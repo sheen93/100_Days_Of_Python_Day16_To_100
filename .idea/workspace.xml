@@ -126,7 +126,7 @@
       <recent name="$PROJECT_DIR$/day 31/flash-card-project-start/data/french" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (4)">
+  <component name="RunManager" selected="Python.main (5)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
@@ -144,31 +144,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 31/flash-card-project-start/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100_Days_Of_Python_Day16_To_100" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,6 +194,31 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 32/AutomatedBirthdayWishes/Birthday Wisher (Day 32) start/MotivationalQuoteSender/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_Days_Of_Python_Day16_To_100" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 32/AutomatedBirthdayWishes/BirthdayWisher/birthday-wisher-extrahard-start" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 32/AutomatedBirthdayWishes/BirthdayWisher/birthday-wisher-extrahard-start/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,19 +278,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.main (5)" />
       <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.main (2)" />
       <item itemvalue="Python.main (3)" />
       <item itemvalue="Python.main (4)" />
       <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (5)" />
         <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -363,23 +363,7 @@
       <workItem from="1780927915098" duration="582000" />
       <workItem from="1780947290644" duration="210000" />
       <workItem from="1781051567911" duration="3869000" />
-      <workItem from="1781055451635" duration="832000" />
-    </task>
-    <task id="LOCAL-00028" summary="day 22 continue">
-      <option name="closed" value="true" />
-      <created>1768144354814</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1768144354814</updated>
-    </task>
-    <task id="LOCAL-00029" summary="day 22 continue">
-      <option name="closed" value="true" />
-      <created>1768342175755</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1768342175755</updated>
+      <workItem from="1781055451635" duration="3804000" />
     </task>
     <task id="LOCAL-00030" summary="day 22 continue">
       <option name="closed" value="true" />
@@ -757,7 +741,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781055386928</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="day 32: done Motivational Quote Sender (xps, master)">
+      <option name="closed" value="true" />
+      <created>1781060688146</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1781060688147</updated>
+    </task>
+    <task id="LOCAL-00078" summary="day 32: done Motivational Quote Sender (xps, master)">
+      <option name="closed" value="true" />
+      <created>1781060938174</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1781060938174</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -791,7 +791,8 @@
     <MESSAGE value="day 31 continue flashy pro (xps)" />
     <MESSAGE value="day 31 continue flashy pro (xps, testing)" />
     <MESSAGE value="day 32: cont. Motivational Quote Sender (xps)" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 32: cont. Motivational Quote Sender (xps)" />
+    <MESSAGE value="day 32: done Motivational Quote Sender (xps, master)" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 32: done Motivational Quote Sender (xps, master)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python2$main.coverage" NAME="main Coverage Results" MODIFIED="1768691703817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19/Turtle Race" />
@@ -807,6 +808,7 @@
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge3__1_.coverage" NAME="turtle_challenge3 (1) Coverage Results" MODIFIED="1766774744093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1780862130113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 31/FlashyPro" />
     <SUITE FILE_PATH="coverage/Python2$crossing_turtle.coverage" NAME="crossing_turtle Coverage Results" MODIFIED="1768507150471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 23/Turtle Crossing" />
+    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1781063630793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 32/AutomatedBirthdayWishes/BirthdayWisher/birthday-wisher-extrahard-start" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge5.coverage" NAME="turtle_challenge5 Coverage Results" MODIFIED="1766863273721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/Python2$python_tuples.coverage" NAME="python_tuples Coverage Results" MODIFIED="1766773288048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
     <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1778985321699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start" />
