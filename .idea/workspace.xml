@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 30 continue">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50ac489f-179a-4f16-b33a-2badaab69f55" name="Changes" comment="day 30 continue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +124,7 @@
       <recent name="$PROJECT_DIR$/day 31/flash-card-project-start/data/french" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (5)">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
@@ -152,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_Days_Of_Python_Day16_To_100" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,14 +159,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 31/FlashyPro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 33" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 31/FlashyPro/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 33/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,14 +234,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/Nato Alphabet Project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 33/Kanye-Quotes/kanye-quotes-start" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/Nato Alphabet Project/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 33/Kanye-Quotes/kanye-quotes-start/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,19 +276,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.main (2)" />
       <item itemvalue="Python.main (5)" />
       <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.main (3)" />
       <item itemvalue="Python.main (4)" />
       <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (5)" />
         <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (3)" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -364,6 +362,8 @@
       <workItem from="1780947290644" duration="210000" />
       <workItem from="1781051567911" duration="3869000" />
       <workItem from="1781055451635" duration="3804000" />
+      <workItem from="1781099778050" duration="9019000" />
+      <workItem from="1781116385649" duration="2241000" />
     </task>
     <task id="LOCAL-00030" summary="day 22 continue">
       <option name="closed" value="true" />
@@ -795,28 +795,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="day 32: done Motivational Quote Sender (xps, master)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python2$main.coverage" NAME="main Coverage Results" MODIFIED="1768691703817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19/Turtle Race" />
-    <SUITE FILE_PATH="coverage/Python2$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1768528561121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 23/Turtle Crossing" />
     <SUITE FILE_PATH="coverage/Python2$color_pallete.coverage" NAME="color_pallete Coverage Results" MODIFIED="1766874803041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Hirst Painting" />
     <SUITE FILE_PATH="coverage/Python2$slicing.coverage" NAME="slicing Coverage Results" MODIFIED="1767123226257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20 - 21/Lessons" />
-    <SUITE FILE_PATH="coverage/Python2$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1768695215096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 24/Snake Game Highscore" />
-    <SUITE FILE_PATH="coverage/Python2$vehicle.coverage" NAME="vehicle Coverage Results" MODIFIED="1768525257726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 23/Turtle Crossing" />
     <SUITE FILE_PATH="coverage/Python2$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1768617350196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20 - 21/Snake Game" />
-    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1781060483257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 32/AutomatedBirthdayWishes/Birthday Wisher (Day 32) start/MotivationalQuoteSender" />
-    <SUITE FILE_PATH="coverage/Python2$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1768696733639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 24/File Manipulation/Abs/Rerlative Path" />
     <SUITE FILE_PATH="coverage/Python2$hirst_painting_project.coverage" NAME="hirst_painting_project Coverage Results" MODIFIED="1766888630723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Hirst Painting" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge3__1_.coverage" NAME="turtle_challenge3 (1) Coverage Results" MODIFIED="1766774744093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
-    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1780862130113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 31/FlashyPro" />
     <SUITE FILE_PATH="coverage/Python2$crossing_turtle.coverage" NAME="crossing_turtle Coverage Results" MODIFIED="1768507150471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 23/Turtle Crossing" />
-    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1781063630793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 32/AutomatedBirthdayWishes/BirthdayWisher/birthday-wisher-extrahard-start" />
+    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1781117120824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 32/AutomatedBirthdayWishes/BirthdayWisher/birthday-wisher-extrahard-start" />
     <SUITE FILE_PATH="coverage/Python2$turtle_challenge5.coverage" NAME="turtle_challenge5 Coverage Results" MODIFIED="1766863273721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
-    <SUITE FILE_PATH="coverage/Python2$python_tuples.coverage" NAME="python_tuples Coverage Results" MODIFIED="1766773288048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
-    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1778985321699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 30/Try Catch Except Finally pattern/password-manager-start" />
+    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1781117763718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 33" />
     <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$Other_Tkinter_Widgets.coverage" NAME="Other_Tkinter_Widgets Coverage Results" MODIFIED="1778851904269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 27/Intro to Tkinter" />
     <SUITE FILE_PATH="coverage/Python2$redo_main.coverage" NAME="redo_main Coverage Results" MODIFIED="1767653925819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 20 - 21/Snake Game Redo" />
-    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1781055463650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 31/flash-card-project-start" />
-    <SUITE FILE_PATH="coverage/Python2$turtle_challenge4.coverage" NAME="turtle_challenge4 Coverage Results" MODIFIED="1766771848692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
-    <SUITE FILE_PATH="coverage/Python2$higher_order_functions_and_event_listener.coverage" NAME="higher_order_functions_and_event_listener Coverage Results" MODIFIED="1766889430754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19" />
     <SUITE FILE_PATH="coverage/Python2$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1768716564491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 24/Mail Merging/Mail+Merge+Project+Start/Mail Merge Project Start" />
+    <SUITE FILE_PATH="coverage/Python2$main.coverage" NAME="main Coverage Results" MODIFIED="1768691703817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19/Turtle Race" />
+    <SUITE FILE_PATH="coverage/Python2$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1768528561121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 23/Turtle Crossing" />
+    <SUITE FILE_PATH="coverage/Python2$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1768695215096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 24/Snake Game Highscore" />
+    <SUITE FILE_PATH="coverage/Python2$vehicle.coverage" NAME="vehicle Coverage Results" MODIFIED="1768525257726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 23/Turtle Crossing" />
+    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1781060483257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 32/AutomatedBirthdayWishes/Birthday Wisher (Day 32) start/MotivationalQuoteSender" />
+    <SUITE FILE_PATH="coverage/Python2$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1768696733639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 24/File Manipulation/Abs/Rerlative Path" />
+    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1780862130113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 31/FlashyPro" />
+    <SUITE FILE_PATH="coverage/Python2$python_tuples.coverage" NAME="python_tuples Coverage Results" MODIFIED="1766773288048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
+    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main.coverage" NAME="main Coverage Results" MODIFIED="1781118614748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 33/Kanye-Quotes/kanye-quotes-start" />
+    <SUITE FILE_PATH="coverage/100_Days_Of_Python_Day16_To_100$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1781055463650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 31/flash-card-project-start" />
+    <SUITE FILE_PATH="coverage/Python2$higher_order_functions_and_event_listener.coverage" NAME="higher_order_functions_and_event_listener Coverage Results" MODIFIED="1766889430754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19" />
+    <SUITE FILE_PATH="coverage/Python2$turtle_challenge4.coverage" NAME="turtle_challenge4 Coverage Results" MODIFIED="1766771848692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18/Turtle challenge" />
   </component>
 </project>
