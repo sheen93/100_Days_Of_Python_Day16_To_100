@@ -370,14 +370,6 @@
       <workItem from="1781127921410" duration="2122000" />
       <workItem from="1781144763603" duration="9301000" />
     </task>
-    <task id="LOCAL-00034" summary="day 22 continue">
-      <option name="closed" value="true" />
-      <created>1768539389290</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1768539389290</updated>
-    </task>
     <task id="LOCAL-00035" summary="day 22 continue">
       <option name="closed" value="true" />
       <created>1768639856311</created>
@@ -762,7 +754,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781212562501</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="day 34: quizlet cont. (xps, master)">
+      <option name="closed" value="true" />
+      <created>1781215445203</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1781215445203</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
